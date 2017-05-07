@@ -1,0 +1,18 @@
+\begin{thebibliography}{1}
+
+\bibitem{chocons}
+Hooman Hefzi, Kok~Siong Ang, Michael Hanscho, Aarash Bordbar, David
+  Ruckerbauer, Meiyappan Lakshmanan, Camila~A Orellana, Deniz Baycin-Hizal,
+  Yingxiang Huang, Daniel Ley, et~al.
+\newblock A consensus genome-scale reconstruction of chinese hamster ovary cell
+  metabolism.
+\newblock {\em Cell Systems}, 3(5):434--443, 2016.
+
+\bibitem{bigg}
+Zachary~A. King, Justin Lu, Andreas Dräger, Philip Miller, Stephen Federowicz,
+  Joshua~A. Lerman, Ali Ebrahim, Bernhard~O. Palsson, and Nathan~E. Lewis.
+\newblock Bigg models: A platform for integrating, standardizing and sharing
+  genome-scale models.
+\newblock {\em Nucleic Acids Research}, 44(D1):D515, 2016.
+
+\end{thebibliography}
