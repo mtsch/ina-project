@@ -1,10 +1,13 @@
 using COBRA
 using LightGraphs
 
-function mat2net(filename="./iCHOv1-model/iCHOv1.mat", name="iCHOv1")
+function mat2net(filename="../models/iCHOv1-model/iCHOv1.mat", name="iCHOv1")
 
     # Load model and make links simple.
-    s = map(sign, loadModel(filename, "S", name).S)
+    model = loadModel(filename, "S", name)
+
+    s = map(sign, model.S)
+    rxns = model.rxns
 
     nv = size(s, 2)
     g = DiGraph(nv)
@@ -23,5 +26,5 @@ function mat2net(filename="./iCHOv1-model/iCHOv1.mat", name="iCHOv1")
         end
     end
 
-    g
+    g, rxns
 end
