@@ -1,0 +1,33 @@
+CURRENT VERSION: 1.1
+
+----------------------------------------------------------------------------------------------------
+
+CHECKSUM  
+
+maximal growth rate: 0.026 flux units
+
+----------------------------------------------------------------------------------------------------
+
+CONVERSION SBML TO TEXT FILE
+
+can be performed for example using the Cobra toolbox (http://opencobra.sf.net/) and commands
+
+>> model = readCbModel('cho_modelNumber.xml',inf);
+>> writeCbModel(model,'text','cho_modelNumber.txt');
+
+though this is not recommended as semantic annotations may be lost.
+
+----------------------------------------------------------------------------------------------------
+
+UPDATES
+
+cho 1.2: 22 jun 2014
+* removed FAD (s_0100) from the objective function (r_1545) as this may prevent growth. Thanks to Hyun Uk Kim for locating this issue.
+
+cho 1.1: 26 feb 2013
+* restructured as per yeast 6.0 (http://yeast.sf.net/)
+* now supporting the FBC format [http://sbml.org/Community/Wiki/SBML_Level_3_Proposals/Flux_Constraints]  
+
+cho 1.0: 14 aug 2012
+* semantically-annotated version of Selverasu et al (http://dx.doi.org/10.1002/bit.24445)
+* structured similarly to yeast 5.0 (http://yeast.sf.net/) to facilitate comparative studies
