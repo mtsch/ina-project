@@ -59,7 +59,32 @@ grestore
 
 \section{Introduction}
 \label{sec:intro}
-Metabolic networks~\cite{jeong2000large} are used to model metabolism in various organisms. We usually have two types of vertices in a metabolic network: reactions and chemicals produced and consumed by the reactions. The most correct way to represent this kind of structure is with a bipartite network, where edges connect chemicals to reactions. Furthermore, the edges are directed indicating whether the chemical was produced or consumed. 
+
+Since the beginning the turn of the century, life sciences have been evolving
+rapidly. Advances in data acquisition, storage and analysis technology have
+allowed scientist to gather immense amounts of data and build complex models
+from it\cite{modsys}. These complicated models have brought people of various
+backgrounds, such as physics, mathemathics and computer science into the field
+of biology.
+
+One of such fileds, itself a very recent development, is network science, which
+is often used to analyze different kinds of networks that appear in the various
+subfileds of modern biology, including ecology\cite{proulx2005network}, systems
+biology\cite{barabasi2004network} and
+neuroscience\cite{sporns2014contributions}.
+
+Metabolic networks\cite{jeong2000large} are used to model the meta-bolisms of
+various organisms. They are usually represented with a bipartite graph composed
+of two types of vertices: reactions and chemicals produced and consumed by the
+reactions. The where edges in such a network connect chemicals to
+reactions. Furthermore, the edges are directed indicating whether the chemical
+was produced or consumed. A third kind of vertices can be added to represent
+enzymes that catalyze the reaction, but do not directly partake in
+it. Other commonly used representations are simplified reprpresentations, where
+one of the types of vertices is omitted\cite{newman2010networks}.
+
+In this article, we will analyze metabolism subsystems and how they can be
+analyzed, compared and detectied using approaches from network science.
 
 \section{Methods}
 
@@ -73,6 +98,8 @@ Some initial ideas for methods we could use:
   subsystems? We will look for feedback and feed-forward loops.
 \item
   Maybe some other techniques to compare the subsystems with?
+\item
+  Try the idea from \cite{holme2003subnetwork}.
 \end{itemize}
 
 \section{Resutls}
