@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2016.8.8)  7 MAY 2017 20:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2016.8.8)  8 MAY 2017 18:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -181,25 +181,24 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 SVJour warning: Missing \date
-SVJour warning: Missing \abstract
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 52.
+(Font)              <7> on input line 58.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 52.
+(Font)              <5> on input line 58.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 52.
+(Font)              <9> on input line 58.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 52.
+(Font)              <6> on input line 58.
 SVJour warning: Missing \PACS
 
-Overfull \hbox (0.32971pt too wide) in paragraph at lines 84--89
+Overfull \hbox (0.32971pt too wide) in paragraph at lines 106--111
 []\OT1/cmr/m/n/10 The net-work has scale-free struc-ture. Its in-degree, out-
  []
 
 <../plots/degree.pdf, id=1, 433.62pt x 289.08pt>
 File: ../plots/degree.pdf Graphic file (type pdf)
  <use ../plots/degree.pdf>
-Package pdftex.def Info: ../plots/degree.pdf used on input line 91.
+Package pdftex.def Info: ../plots/degree.pdf used on input line 113.
 (pdftex.def)             Requested size: 230.39844pt x 153.59982pt.
 
 (./report.bbl
@@ -207,33 +206,36 @@ Underfull \hbox (badness 1210) in paragraph at lines 4--10
 \OT1/cmr/m/n/9 Bor-d-bar, David Rucker-bauer, Meiyap-pan Lak-sh-manan,
  []
 
-Missing character: There is no Ã in font cmr9!
-Missing character: There is no ¤ in font cmr9!
-) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
  <../plots/degree.pdf>]
-(./report.aux) ) 
+Missing character: There is no Ã in font cmr9!
+Missing character: There is no ¤ in font cmr9!
+)
+[2
+
+] (./report.aux) ) 
 Here is how much of TeX's memory you used:
- 1773 strings out of 493049
- 23639 string characters out of 6140511
- 90431 words of memory out of 5000000
- 5297 multiletter control sequences out of 15000+600000
- 8822 words of font info for 31 fonts, out of 8000000 for 9000
+ 1776 strings out of 493049
+ 23674 string characters out of 6140511
+ 89431 words of memory out of 5000000
+ 5299 multiletter control sequences out of 15000+600000
+ 9421 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,6n,28p,253b,225s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pf
-b></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/font
-s/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/shar
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on report.pdf (1 page, 127061 bytes).
+ 40i,6n,28p,253b,246s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.
+pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/sh
+are/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmti9.pfb>
+Output written on report.pdf (2 pages, 130912 bytes).
 PDF statistics:
- 70 PDF objects out of 1000 (max. 8388607)
- 37 compressed objects within 1 object stream
+ 73 PDF objects out of 1000 (max. 8388607)
+ 39 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

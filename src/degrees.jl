@@ -25,3 +25,13 @@ function degreeplot(g, title="")
     scatter!(ix, iy, label="in degree")
     scatter!(ox, oy, label="out degree")
 end
+
+"""
+Estimate the value of gamma for a degree distribution f(g).
+"""
+function gamma(f, g; delta = 1)
+    k = filter(x -> x >= delta, f(g))
+    n = length(k)
+
+    1 + n * inv(sum(log.(k ./ (delta - 0.5))))
+end
