@@ -40,14 +40,13 @@ grestore
 %
 %\date{Received: date / Revised version: date}
 %
-\abstract{
-  Subsystems are parts of a metabolism that perform different important
+\abstract{Subsystems are parts of a metabolism that perform different important
   tasks in a cell. In this article, we will explore these subsystems from a
   network science point of view. We will attempt to find ways of detecting
-  subsystems in a metabolic network and compare their structure. We will present
-  our results on the Chinese hamster ovary cell, a mammalian cell that is
-  commonly used in biomedical research and in biotechnology.
-}
+  subsystems in a metabolic network using community detection algorithms. We
+  will use the algorithms on a metabolic network of the Chinese hamster ovary
+  cell, a mammalian cell that is commonly used in biomedical research and in
+  biotechnology.}
 
 % tole gre v abstract
 %\PACS{
@@ -83,29 +82,33 @@ enzymes that catalyze the reaction, but do not directly partake in
 it. Other commonly used representations are simplified reprpresentations, where
 one of the types of vertices is omitted\cite{newman2010networks}.
 
-In this article, we will analyze metabolism subsystems and how they can be
-analyzed, compared and detectied using approaches from network science.
+In this article, we will analyze the subsystems in a metabolic network of the
+Chinese hamster ovary cell. We will explore different methods of detecting the
+subsystems and compare their structures.
 
 \section{Methods}
+\label{sec:methods}
 
-Some initial ideas for methods we could use:
+We will apply a few different community detection methods and compare how well
+they detect the subsystems of a metabolic network.
+
+We haven't decided on the algorithms yet, but we will try some of the following:
 
 \begin{itemize}
 \item
-  Community detection: how do different algorithms detect subsystems?
+  Some of the algorithms from the lectures.
 \item
-  Motifs: what motifs are the most common and which motifs appear in different
-  subsystems? We will look for feedback and feed-forward loops.
+  Community detection based on motifs\cite{benson2016higher}.
 \item
-  Maybe some other techniques to compare the subsystems with?
-\item
-  Try the idea from \cite{holme2003subnetwork}.
+  Removing nodes with the highest betweenness centrality (or some other measure)
+  and observing how the network falls apart\cite{holme2003subnetwork}.
 \end{itemize}
 
 \section{Resutls}
 \label{sec:results}
 
 \subsection{Network global structure overview}
+\label{sec:overview}
 
 In this article, we will analyse a metabolic network of the Chinese hamster
 ovary (CHO) cell. The CHO cell is frequently used in biological and medical
@@ -115,13 +118,12 @@ We have used a whole-cell metabolic network of the Chinese hamster ovary (CHO)
 cell that was taken from the BiGG database\cite{bigg,chocons}. The original
 network contains 4,456 metabolites that take part in 6,663 reactions. The
 reactions and metabolites are annotated with additional metadata, such as name,
-BiGG ID, subsystem etc.
+subsystem, BiGG ID etc.
 
 We have simplified the network to a simple directed graph, where reactions are
 represented with nodes. If one reaction produces a metabolite that is used by
 another reaction, they are connected by an arc. This network has 6,663 nodes and
-656,609 arcs.
-%TODO: dodat 546208 undirected edges?
+656,609 arcs. If we treat as an undirected network, it has 546208 edges.
 
 The network has a very large connected component of 6,036 nodes, while the other
 components are very small, as they are composed of at most 4 nodes. The largest
@@ -129,10 +131,9 @@ connected component contains a strongly connected component of 5,307 nodes,
 while the other nodes are isolated. These probably represent sources and sinks
 of the metabolism.
 
-The network has scale-free structure. Its in-degree, out-degree and degree
-distributions are plotted in figure~\ref{fig:dist}. The estimated scale factors
-for the network are $\gamma_{in} = 2.5$, $\gamma_{out} = 2.3$ and $\gamma =
-2.0$. % TODO: kok naj bo delta, tukej je bla 200, kar odreže večino stran.
+The network appears to have a scale-free structure. Its in-degree, out-degree and degree
+distributions are plotted in figure~\ref{fig:dist}. It has a very low clustering
+coefficient, around 0.069.
 % effective diameter = 15, clustering coefficient = 0.012, undirected 0.069
 
 \begin{figure}
