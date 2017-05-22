@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.5)  22 MAY 2017 17:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.5)  22 MAY 2017 20:06
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -190,27 +190,27 @@ LaTeX Font Info:    ... okay on input line 31.
 )
 SVJour warning: Missing \date
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 58.
+(Font)              <7> on input line 61.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 58.
+(Font)              <5> on input line 61.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 58.
+(Font)              <9> on input line 61.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 58.
+(Font)              <6> on input line 61.
 
-Overfull \hbox (1.30217pt too wide) in paragraph at lines 63--69
+Overfull \hbox (1.30217pt too wide) in paragraph at lines 66--72
 \OT1/cmr/m/n/10 ing rapidly. Ad-vances in data ac-qui-si-tion, stor-age and ana
 l-
  []
 
 
-Overfull \hbox (2.49648pt too wide) in paragraph at lines 85--88
+Overfull \hbox (2.49648pt too wide) in paragraph at lines 88--91
 []\OT1/cmr/m/n/10 In this ar-ti-cle, we an-a-lyze the sub-sys-tems in a metabol
 ic
  []
 
 
-Overfull \hbox (10.53827pt too wide) in paragraph at lines 99--100
+Overfull \hbox (10.53827pt too wide) in paragraph at lines 102--103
 \OT1/cmr/m/n/10 struc-ture. They use a mod-i-fied Girvan-Newman al-go-rithm [3]
 
  []
@@ -219,7 +219,7 @@ Overfull \hbox (10.53827pt too wide) in paragraph at lines 99--100
 
 
 ]
-Overfull \hbox (15.46877pt too wide) in paragraph at lines 139--144
+Overfull \hbox (15.46877pt too wide) in paragraph at lines 142--147
 \OT1/cmr/m/n/10 These prob-a-bly rep-re-sent sources and sinks of the metabolis
 m. 
  []
@@ -227,228 +227,228 @@ m.
 <../plots/degree.pdf, id=13, 433.62pt x 289.08pt>
 File: ../plots/degree.pdf Graphic file (type pdf)
  <use ../plots/degree.pdf>
-Package pdftex.def Info: ../plots/degree.pdf used on input line 151.
+Package pdftex.def Info: ../plots/degree.pdf used on input line 154.
 (pdftex.def)             Requested size: 230.39844pt x 153.59982pt.
 Package epstopdf Info: Source file: <M1-prc.eps>
-(epstopdf)                    date: 2017-05-22 14:21:25
+(epstopdf)                    date: 2017-05-22 19:49:11
 (epstopdf)                    size: 5523 bytes
 (epstopdf)             Output file: <M1-prc-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-22 14:21:25
+(epstopdf)                    date: 2017-05-22 19:49:11
 (epstopdf)                    size: 3864 bytes
 (epstopdf)             Command: <epstopdf --outfile=M1-prc-eps-converted-to.pdf
  M1-prc.eps>
-(epstopdf)             \includegraphics on input line 157.
+(epstopdf)             \includegraphics on input line 160.
 Package epstopdf Info: Output file is already uptodate.
 
 <M1-prc-eps-converted-to.pdf, id=14, 64.24pt x 208.78pt>
 File: M1-prc-eps-converted-to.pdf Graphic file (type pdf)
 
 <use M1-prc-eps-converted-to.pdf>
-Package pdftex.def Info: M1-prc-eps-converted-to.pdf used on input line 157.
+Package pdftex.def Info: M1-prc-eps-converted-to.pdf used on input line 160.
 (pdftex.def)             Requested size: 15.35938pt x 49.91707pt.
 Package epstopdf Info: Source file: <M2-prc.eps>
-(epstopdf)                    date: 2017-05-22 14:21:25
+(epstopdf)                    date: 2017-05-22 19:49:11
 (epstopdf)                    size: 5925 bytes
 (epstopdf)             Output file: <M2-prc-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-22 14:21:25
+(epstopdf)                    date: 2017-05-22 19:49:11
 (epstopdf)                    size: 3984 bytes
 (epstopdf)             Command: <epstopdf --outfile=M2-prc-eps-converted-to.pdf
  M2-prc.eps>
-(epstopdf)             \includegraphics on input line 158.
+(epstopdf)             \includegraphics on input line 161.
 Package epstopdf Info: Output file is already uptodate.
 
 <M2-prc-eps-converted-to.pdf, id=15, 78.2925pt x 208.78pt>
 File: M2-prc-eps-converted-to.pdf Graphic file (type pdf)
 
 <use M2-prc-eps-converted-to.pdf>
-Package pdftex.def Info: M2-prc-eps-converted-to.pdf used on input line 158.
+Package pdftex.def Info: M2-prc-eps-converted-to.pdf used on input line 161.
 (pdftex.def)             Requested size: 15.35938pt x 40.95563pt.
 Package epstopdf Info: Source file: <M3-prc.eps>
-(epstopdf)                    date: 2017-05-22 14:21:25
+(epstopdf)                    date: 2017-05-22 19:49:11
 (epstopdf)                    size: 6311 bytes
 (epstopdf)             Output file: <M3-prc-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-22 14:21:25
+(epstopdf)                    date: 2017-05-22 19:49:11
 (epstopdf)                    size: 4121 bytes
 (epstopdf)             Command: <epstopdf --outfile=M3-prc-eps-converted-to.pdf
  M3-prc.eps>
-(epstopdf)             \includegraphics on input line 159.
+(epstopdf)             \includegraphics on input line 162.
 Package epstopdf Info: Output file is already uptodate.
 
 <M3-prc-eps-converted-to.pdf, id=16, 78.2925pt x 208.78pt>
 File: M3-prc-eps-converted-to.pdf Graphic file (type pdf)
 
 <use M3-prc-eps-converted-to.pdf>
-Package pdftex.def Info: M3-prc-eps-converted-to.pdf used on input line 159.
+Package pdftex.def Info: M3-prc-eps-converted-to.pdf used on input line 162.
 (pdftex.def)             Requested size: 15.35938pt x 40.95563pt.
 Package epstopdf Info: Source file: <M4-prc.eps>
-(epstopdf)                    date: 2017-05-22 14:21:25
+(epstopdf)                    date: 2017-05-22 19:49:11
 (epstopdf)                    size: 6699 bytes
 (epstopdf)             Output file: <M4-prc-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-22 14:21:25
+(epstopdf)                    date: 2017-05-22 19:49:11
 (epstopdf)                    size: 4084 bytes
 (epstopdf)             Command: <epstopdf --outfile=M4-prc-eps-converted-to.pdf
  M4-prc.eps>
-(epstopdf)             \includegraphics on input line 160.
+(epstopdf)             \includegraphics on input line 163.
 Package epstopdf Info: Output file is already uptodate.
 
 <M4-prc-eps-converted-to.pdf, id=17, 64.24pt x 208.78pt>
 File: M4-prc-eps-converted-to.pdf Graphic file (type pdf)
 
 <use M4-prc-eps-converted-to.pdf>
-Package pdftex.def Info: M4-prc-eps-converted-to.pdf used on input line 160.
+Package pdftex.def Info: M4-prc-eps-converted-to.pdf used on input line 163.
 (pdftex.def)             Requested size: 15.35938pt x 49.91707pt.
 Package epstopdf Info: Source file: <M5-prc.eps>
-(epstopdf)                    date: 2017-05-22 14:21:25
+(epstopdf)                    date: 2017-05-22 19:49:11
 (epstopdf)                    size: 5516 bytes
 (epstopdf)             Output file: <M5-prc-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-22 14:21:25
+(epstopdf)                    date: 2017-05-22 19:49:11
 (epstopdf)                    size: 3932 bytes
 (epstopdf)             Command: <epstopdf --outfile=M5-prc-eps-converted-to.pdf
  M5-prc.eps>
-(epstopdf)             \includegraphics on input line 161.
+(epstopdf)             \includegraphics on input line 164.
 Package epstopdf Info: Output file is already uptodate.
 
 <M5-prc-eps-converted-to.pdf, id=18, 64.24pt x 208.78pt>
 File: M5-prc-eps-converted-to.pdf Graphic file (type pdf)
 
 <use M5-prc-eps-converted-to.pdf>
-Package pdftex.def Info: M5-prc-eps-converted-to.pdf used on input line 161.
+Package pdftex.def Info: M5-prc-eps-converted-to.pdf used on input line 164.
 (pdftex.def)             Requested size: 15.35938pt x 49.91707pt.
 Package epstopdf Info: Source file: <M6-prc.eps>
-(epstopdf)                    date: 2017-05-22 14:21:25
+(epstopdf)                    date: 2017-05-22 19:49:11
 (epstopdf)                    size: 5913 bytes
 (epstopdf)             Output file: <M6-prc-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-22 14:21:25
+(epstopdf)                    date: 2017-05-22 19:49:11
 (epstopdf)                    size: 4011 bytes
 (epstopdf)             Command: <epstopdf --outfile=M6-prc-eps-converted-to.pdf
  M6-prc.eps>
-(epstopdf)             \includegraphics on input line 162.
+(epstopdf)             \includegraphics on input line 165.
 Package epstopdf Info: Output file is already uptodate.
 
 <M6-prc-eps-converted-to.pdf, id=19, 64.24pt x 208.78pt>
 File: M6-prc-eps-converted-to.pdf Graphic file (type pdf)
 
 <use M6-prc-eps-converted-to.pdf>
-Package pdftex.def Info: M6-prc-eps-converted-to.pdf used on input line 162.
+Package pdftex.def Info: M6-prc-eps-converted-to.pdf used on input line 165.
 (pdftex.def)             Requested size: 15.35938pt x 49.91707pt.
 Package epstopdf Info: Source file: <M7-prc.eps>
-(epstopdf)                    date: 2017-05-22 14:21:25
+(epstopdf)                    date: 2017-05-22 19:49:11
 (epstopdf)                    size: 5915 bytes
 (epstopdf)             Output file: <M7-prc-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-22 14:21:25
+(epstopdf)                    date: 2017-05-22 19:49:11
 (epstopdf)                    size: 3926 bytes
 (epstopdf)             Command: <epstopdf --outfile=M7-prc-eps-converted-to.pdf
  M7-prc.eps>
-(epstopdf)             \includegraphics on input line 163.
+(epstopdf)             \includegraphics on input line 166.
 Package epstopdf Info: Output file is already uptodate.
 
 <M7-prc-eps-converted-to.pdf, id=20, 64.24pt x 208.78pt>
 File: M7-prc-eps-converted-to.pdf Graphic file (type pdf)
 
 <use M7-prc-eps-converted-to.pdf>
-Package pdftex.def Info: M7-prc-eps-converted-to.pdf used on input line 163.
+Package pdftex.def Info: M7-prc-eps-converted-to.pdf used on input line 166.
 (pdftex.def)             Requested size: 15.35938pt x 49.91707pt.
 Package epstopdf Info: Source file: <M8-prc.eps>
-(epstopdf)                    date: 2017-05-22 14:21:25
+(epstopdf)                    date: 2017-05-22 19:49:11
 (epstopdf)                    size: 5137 bytes
 (epstopdf)             Output file: <M8-prc-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-22 14:21:25
+(epstopdf)                    date: 2017-05-22 19:49:11
 (epstopdf)                    size: 3857 bytes
 (epstopdf)             Command: <epstopdf --outfile=M8-prc-eps-converted-to.pdf
  M8-prc.eps>
-(epstopdf)             \includegraphics on input line 164.
+(epstopdf)             \includegraphics on input line 167.
 Package epstopdf Info: Output file is already uptodate.
 
 <M8-prc-eps-converted-to.pdf, id=21, 70.2625pt x 150.5625pt>
 File: M8-prc-eps-converted-to.pdf Graphic file (type pdf)
 
 <use M8-prc-eps-converted-to.pdf>
-Package pdftex.def Info: M8-prc-eps-converted-to.pdf used on input line 164.
+Package pdftex.def Info: M8-prc-eps-converted-to.pdf used on input line 167.
 (pdftex.def)             Requested size: 15.35938pt x 32.91248pt.
 Package epstopdf Info: Source file: <M9-prc.eps>
-(epstopdf)                    date: 2017-05-22 14:21:25
+(epstopdf)                    date: 2017-05-22 19:49:11
 (epstopdf)                    size: 5082 bytes
 (epstopdf)             Output file: <M9-prc-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-22 14:21:25
+(epstopdf)                    date: 2017-05-22 19:49:11
 (epstopdf)                    size: 3798 bytes
 (epstopdf)             Command: <epstopdf --outfile=M9-prc-eps-converted-to.pdf
  M9-prc.eps>
-(epstopdf)             \includegraphics on input line 165.
+(epstopdf)             \includegraphics on input line 168.
 Package epstopdf Info: Output file is already uptodate.
 
 <M9-prc-eps-converted-to.pdf, id=22, 64.24pt x 208.78pt>
 File: M9-prc-eps-converted-to.pdf Graphic file (type pdf)
 
 <use M9-prc-eps-converted-to.pdf>
-Package pdftex.def Info: M9-prc-eps-converted-to.pdf used on input line 165.
+Package pdftex.def Info: M9-prc-eps-converted-to.pdf used on input line 168.
 (pdftex.def)             Requested size: 15.35938pt x 49.91707pt.
 Package epstopdf Info: Source file: <M10-prc.eps>
-(epstopdf)                    date: 2017-05-22 14:21:25
+(epstopdf)                    date: 2017-05-22 19:49:11
 (epstopdf)                    size: 5144 bytes
 (epstopdf)             Output file: <M10-prc-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-22 14:21:25
+(epstopdf)                    date: 2017-05-22 19:49:11
 (epstopdf)                    size: 3924 bytes
 (epstopdf)             Command: <epstopdf --outfile=M10-prc-eps-converted-to.pd
 f M10-prc.eps>
-(epstopdf)             \includegraphics on input line 166.
+(epstopdf)             \includegraphics on input line 169.
 Package epstopdf Info: Output file is already uptodate.
 
 <M10-prc-eps-converted-to.pdf, id=23, 79.29625pt x 150.5625pt>
 File: M10-prc-eps-converted-to.pdf Graphic file (type pdf)
 
 <use M10-prc-eps-converted-to.pdf>
-Package pdftex.def Info: M10-prc-eps-converted-to.pdf used on input line 166.
+Package pdftex.def Info: M10-prc-eps-converted-to.pdf used on input line 169.
 (pdftex.def)             Requested size: 15.35938pt x 29.16313pt.
 Package epstopdf Info: Source file: <M11-prc.eps>
-(epstopdf)                    date: 2017-05-22 14:21:25
+(epstopdf)                    date: 2017-05-22 19:49:11
 (epstopdf)                    size: 5519 bytes
 (epstopdf)             Output file: <M11-prc-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-22 14:21:25
+(epstopdf)                    date: 2017-05-22 19:49:11
 (epstopdf)                    size: 3870 bytes
 (epstopdf)             Command: <epstopdf --outfile=M11-prc-eps-converted-to.pd
 f M11-prc.eps>
-(epstopdf)             \includegraphics on input line 167.
+(epstopdf)             \includegraphics on input line 170.
 Package epstopdf Info: Output file is already uptodate.
 
 <M11-prc-eps-converted-to.pdf, id=24, 79.29625pt x 150.5625pt>
 File: M11-prc-eps-converted-to.pdf Graphic file (type pdf)
 
 <use M11-prc-eps-converted-to.pdf>
-Package pdftex.def Info: M11-prc-eps-converted-to.pdf used on input line 167.
+Package pdftex.def Info: M11-prc-eps-converted-to.pdf used on input line 170.
 (pdftex.def)             Requested size: 15.35938pt x 29.16313pt.
 Package epstopdf Info: Source file: <M12-prc.eps>
-(epstopdf)                    date: 2017-05-22 14:21:25
+(epstopdf)                    date: 2017-05-22 19:49:11
 (epstopdf)                    size: 5514 bytes
 (epstopdf)             Output file: <M12-prc-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-22 14:21:25
+(epstopdf)                    date: 2017-05-22 19:49:11
 (epstopdf)                    size: 3963 bytes
 (epstopdf)             Command: <epstopdf --outfile=M12-prc-eps-converted-to.pd
 f M12-prc.eps>
-(epstopdf)             \includegraphics on input line 168.
+(epstopdf)             \includegraphics on input line 171.
 Package epstopdf Info: Output file is already uptodate.
 
 <M12-prc-eps-converted-to.pdf, id=25, 79.29625pt x 208.78pt>
 File: M12-prc-eps-converted-to.pdf Graphic file (type pdf)
 
 <use M12-prc-eps-converted-to.pdf>
-Package pdftex.def Info: M12-prc-eps-converted-to.pdf used on input line 168.
+Package pdftex.def Info: M12-prc-eps-converted-to.pdf used on input line 171.
 (pdftex.def)             Requested size: 15.35938pt x 40.43954pt.
 Package epstopdf Info: Source file: <M13-prc.eps>
-(epstopdf)                    date: 2017-05-22 14:21:25
+(epstopdf)                    date: 2017-05-22 19:49:11
 (epstopdf)                    size: 5926 bytes
 (epstopdf)             Output file: <M13-prc-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-22 14:21:25
+(epstopdf)                    date: 2017-05-22 19:49:11
 (epstopdf)                    size: 4107 bytes
 (epstopdf)             Command: <epstopdf --outfile=M13-prc-eps-converted-to.pd
 f M13-prc.eps>
-(epstopdf)             \includegraphics on input line 169.
+(epstopdf)             \includegraphics on input line 172.
 Package epstopdf Info: Output file is already uptodate.
 
 <M13-prc-eps-converted-to.pdf, id=26, 79.29625pt x 150.5625pt>
 File: M13-prc-eps-converted-to.pdf Graphic file (type pdf)
 
 <use M13-prc-eps-converted-to.pdf>
-Package pdftex.def Info: M13-prc-eps-converted-to.pdf used on input line 169.
+Package pdftex.def Info: M13-prc-eps-converted-to.pdf used on input line 172.
 (pdftex.def)             Requested size: 15.35938pt x 29.16313pt.
  (./report.bbl
 Missing character: There is no Ã in font cmr9!
@@ -467,7 +467,7 @@ erted-to.pdf> <./M8-prc-eps-converted-to.pdf> <./M9-prc-eps-converted-to.pdf> <
 Here is how much of TeX's memory you used:
  1865 strings out of 493089
  26330 string characters out of 6134843
- 91102 words of memory out of 5000000
+ 90102 words of memory out of 5000000
  5322 multiletter control sequences out of 15000+600000
  8989 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -482,7 +482,7 @@ e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/201
 5/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2015/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on report.pdf (2 pages, 159945 bytes).
+Output written on report.pdf (2 pages, 160116 bytes).
 PDF statistics:
  151 PDF objects out of 1000 (max. 8388607)
  91 compressed objects within 1 object stream
