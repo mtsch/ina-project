@@ -26,6 +26,7 @@ grestore
 %\usepackage{graphics}
 \usepackage{graphicx}
 \usepackage{epstopdf}
+\usepackage[utf8]{inputenc}
 % etc
 %
 \begin{document}
@@ -33,7 +34,7 @@ grestore
 \title{Network analysis of metabolic subsystems}
 %\subtitle{Do you have a subtitle?\\ If so, write it here}
 \author{Rok Novosel\thanks{\email{rn0450@student.uni-lj.si}} \and Matija
-  \v{C}ufar\thanks{\email{matijacufar@gmail.com}}
+  Čufar\thanks{\email{matijacufar@gmail.com}}
 % \thanks is optional - remove next line if not needed
 %\thanks{\emph{Present address:} Insert the address here if needed}%
 }                     % Do not remove
@@ -87,54 +88,62 @@ Chinese hamster ovary cell. We explore different methods of detecting the
 subsystems and compare their structures.
 
 \section{Related works}
+\label{sec:related}
 % benson2016higher - motifs
 % jeong2000large - scale free
 % holme2003subnetwork
 
-Paper~\cite{jeong2000large} offers a general overview of the organization and structure of metabolic networks. 
-They compare the metabolic networks of 43 different organisms and find that
-metabolic networks belong to the class of scale-free networks. Moreover, they find that the network diameter is
-consistent across all of the analyzed networks. 
+In~\cite{jeong2000large} Jeong et. al offer a general overview of the
+organization and structure of metabolic networks. The authors compare the
+metabolic networks of 43 different organisms and find that metabolic networks
+belong to the class of scale-free networks. Moreover, they find that the network
+diameter is consistent across all of the analyzed networks, irrespective of the
+number of substrates found in the given species.
 
-In~\cite{holme2003subnetwork} they present a method to decompose metabolic networks into subnetworks based on the global network structure. They use a modified Girvan-Newman algorithm~\cite{girvan2002community} to construct a hierarchical clustering tree. They argue that instead of looking at a particular partitioning of a network, we should look at the hierarchical clustering tree as whole, since well-defined subnetworks appear at different heights.
+In~\cite{holme2003subnetwork}, Holme et. al present a method to decompose
+metabolic networks into subnetworks based on the global network structure. They
+use a modified Girvan-Newman algorithm~\cite{girvan2002community} to construct a
+hierarchical clustering tree. They argue that instead of looking at a particular
+partitioning of a network, we should look at the hierarchical clustering tree as
+whole, since well-defined subnetworks appear at different heights.
 
-A framework for clustering networks based on higher order structures (e.g. motifs) is introduced in~\cite{benson2016higher}.
+A framework for clustering networks based on higher order structures
+(e.g. motifs) is introduced in~\cite{benson2016higher}. The authors of the
+article present an algorithm that performs community detection by using three
+node motifs. It works by cutting the network into communities in a way that
+minimizes the ratio of the number of motifs cut to the number of nodes in
+instances of the motif.
 
 \section{Methods}
 \label{sec:methods}
-
-We apply a few different community detection methods and compare how well
-they detect the subsystems of a metabolic network.
-
-We haven't decided on the algorithms yet, but we try some of the following:
-
-\begin{itemize}
-\item
-  Some of the algorithms from the lectures.
-\item
-  Community detection based on motifs~\cite{benson2016higher}.
-\item
-  Removing nodes with the highest betweenness centrality (or some other measure)
-  and observing how the network falls apart~\cite{holme2003subnetwork}.
-\end{itemize}
-
-\section{Results}
-\label{sec:results}
 
 In this article, we analyse a metabolic network of the Chinese hamster
 ovary (CHO) cell. The CHO cell is frequently used in biological and medical
 research and in the production of biopharmaceuticals~\cite{chocons}.
 
-We used a whole-cell metabolic network of the Chinese hamster ovary (CHO)
+We use a whole-cell metabolic network of the Chinese hamster ovary (CHO)
 cell that was taken from the BiGG database~\cite{bigg,chocons}. The original
 network contains 4,456 metabolites that take part in 6,663 reactions. The
 reactions and metabolites are annotated with additional metadata, such as name,
 subsystem, BiGG ID etc.
 
-We simplify the network to a simple directed graph, where reactions are
+The network was simplified to a simple directed graph, where reactions are
 represented with nodes. If one reaction produces a metabolite that is used by
 another reaction, they are connected by an arc. This network has 6,663 nodes and
-656,609 arcs. If we treat as an undirected network, it has 546208 edges.
+656,609 arcs. If we treat as an undirected network, it has 546,208 edges.
+
+We use two commonly used network community detection algorithms, namely the
+Louvain modularity optimization algorithm~\cite{blondel2008fast} and the
+Clauset-Newman-Moore algorithm~\cite{clauset2004finding}, as the baseline and
+compare them to motif-based clustering methods~\cite{benson2016higher}.
+
+The motif-based clustering method, motif counting and the Clauset-Newman-Moore
+algorithm were taken from the SNAP library~\cite{leskovec2016snap} and the
+Louvain modularity optimization algorithm was taken from the Networkx Python
+library~\cite{networkx}.
+
+\section{Results}
+\label{sec:results}
 
 The network has a very large connected component of 6,036 nodes, while the other
 components are very small, as they are composed of at most 4 nodes. The largest
@@ -142,37 +151,47 @@ connected component contains a strongly connected component of 5,307 nodes,
 while the other nodes are isolated. These probably represent sources and sinks
 of the metabolism.
 
-The network appears to have a scale-free structure. Its in-degree, out-degree and degree
-distributions are plotted in figure~\ref{fig:dist}. It has a very low clustering
-coefficient, around 0.069.
-% effective diameter = 15, clustering coefficient = 0.012, undirected 0.069
+The network appears to have a scale-free structure. Its in-degree, out-degree
+and degree distributions are plotted in figure~\ref{fig:dist}. Some commonly
+used metrics are presented in table~\ref{tab:metrics}.
+
+\begin{table}
+  \centering
+  \begin{tabular}{l|l|l|l}
+    $C_d$ & $C_u$ & $E_{90}$ & $\rho$ \\
+    0.012 & 0.069 & 15 & 0.015
+  \end{tabular}
+  \caption{The directed and undirected clustering coefficients $C_d$ and
+    $C_u$, effective diameter $E_{90}$ and the density $\rho$ of the network.}
+  \label{tab:metrics}
+\end{table}
+
+First, we count the appearances of all 13 directed three-node motifs in the
+network. The significances~\cite{milo2002network} of each motif are presented in
+the second row of table~\ref{tab:motifs}. The significances were calculated by
+comparing the motif occurances with 10 instances of Erdős-Rény random graphs of
+the same size and density.
+
+The normalized mutual information scores of the motif based clustering approach
+are listed in the last row of table~\ref{tab:motifs}. We have calculated these
+scores by comparing the algorithm's results and the actual subsystems listed in
+the network annotation. The results are not the best, but still much better than
+the Louvain and the Clauset-Newman-Moore method, listed in
+table~\ref{tab:others}. We partly attribute the quality of the results to the
+fact that most biological networks tend to be noisy.
+
+\emph{NOTE: we plan on also using Infomap and the Girvan-Newman algorithms, but
+  it seems like they will take a few more days to compute.}
 
 \begin{figure}
-  \includegraphics[width=0.45\textwidth]{../plots/degree}
-  \caption{The in-degree, out-degree and degree distributions of the network.}
+  \includegraphics[width=0.45\textwidth]{../plots/degreesmall}
+  \caption{The in-degree, out-degree and degree distributions of the network,
+    plotted on a log-log scale.}
   \label{fig:dist}
 \end{figure}
 
-\begin{figure}
-  \centering
-  \includegraphics[width=0.03\textwidth]{M1-prc}
-  \includegraphics[width=0.03\textwidth]{M2-prc}
-  \includegraphics[width=0.03\textwidth]{M3-prc}
-  \includegraphics[width=0.03\textwidth]{M4-prc}
-  \includegraphics[width=0.03\textwidth]{M5-prc}
-  \includegraphics[width=0.03\textwidth]{M6-prc}
-  \includegraphics[width=0.03\textwidth]{M7-prc}
-  \includegraphics[width=0.03\textwidth]{M8-prc}
-  \includegraphics[width=0.03\textwidth]{M9-prc}
-  \includegraphics[width=0.03\textwidth]{M10-prc}
-  \includegraphics[width=0.03\textwidth]{M11-prc}
-  \includegraphics[width=0.03\textwidth]{M12-prc}
-  \includegraphics[width=0.03\textwidth]{M13-prc}
-  \caption{All 13 directed three-node motifs.}
-  \label{fig:motifs}
-\end{figure}
-
 \begin{table*}[t!]
+  \centering
   \begin{tabular}{l|lllllllllllll}
     \hline\noalign{\smallskip}
     &
@@ -191,15 +210,30 @@ coefficient, around 0.069.
     \includegraphics[height=0.03\textheight]{M13-plain} \\
     motif & M1 & M2 & M3 & M4 & M5 & M6 & M7 & M8 & M9 & M10 & M11 & M12 & M13
     \\ \hline
-    $Z$ & -379.0 & 496.4 & 6523.0 & 1171385 & 1055.2 & 3565.8 & 4603.5 & 1410.6 &
-    -867.2 & 2599.0 & 1292.9 & 1387.3 & 40285.5 \\
-    nmi & 0.44 & 0.40 & 0.48 & 0.64 & 0.23 & 0.43 & 0.46 & 0.11 & 0.09 & 0.09 &
+    $Z$ & -379.0 & 496.4 & 6,523 & 1,171,385 & 1,055 & 3,566 & 4,604 & 1,411 &
+    -867.2 & 2,599 & 1,293 & 1,387 & 40,286 \\
+    NMI & 0.44 & 0.40 & 0.48 & 0.64 & 0.23 & 0.43 & 0.46 & 0.11 & 0.09 & 0.09 &
     0.20 & 0.23 & 0.42
   \end{tabular}
   \caption{Motif significance $Z$ compared to a random network and normalized
-    mutual information score for motif clustering with each of the 13 motifs.}
+    mutual information score for motif clustering using each of the 13 motifs.}
   \label{tab:motifs}
 \end{table*}
+
+\begin{table}[t!]
+  \centering
+  \begin{tabular}{l|ll}
+    Algorithm & Louvain Modularity & Clauset-Newman-Moore \\ \hline
+    NMI & 0.1 & 0.27
+  \end{tabular}
+  \caption{The normalized mutual information scores of the other algorithms we
+    used.}
+  \label{tab:others}
+\end{table}
+
+\section{Discussion}
+
+\section{Conclusion}
 
 \section{Authors contributions}
 All the authors were involved in the preparation of the manuscript.

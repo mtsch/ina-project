@@ -1,0 +1,53 @@
+\relax 
+\citation{modsys}
+\citation{proulx2005network}
+\citation{barabasi2004network}
+\citation{sporns2014contributions}
+\citation{jeong2000large}
+\citation{newman2010networks}
+\citation{jeong2000large}
+\citation{holme2003subnetwork}
+\citation{girvan2002community}
+\citation{benson2016higher}
+\citation{benson2016higher}
+\citation{holme2003subnetwork}
+\citation{chocons}
+\citation{bigg,chocons}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}}
+\newlabel{sec:intro}{{1}{1}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Related works}{1}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Methods}{1}}
+\newlabel{sec:methods}{{3}{1}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Results}{1}}
+\newlabel{sec:results}{{4}{1}}
+\bibstyle{plain}
+\bibdata{biblio}
+\bibcite{barabasi2004network}{1}
+\bibcite{benson2016higher}{2}
+<<<<<<< HEAD
+\bibcite{chocons}{3}
+\bibcite{holme2003subnetwork}{4}
+\bibcite{modsys}{5}
+\bibcite{jeong2000large}{6}
+\bibcite{bigg}{7}
+\bibcite{newman2010networks}{8}
+\bibcite{proulx2005network}{9}
+\bibcite{sporns2014contributions}{10}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Motif significance $Z$ compared to a random network and normalized mutual information score for motif clustering with each of the 13 motifs.}}{2}}
+\newlabel{tab:motifs}{{1}{2}}
+=======
+\bibcite{girvan2002community}{3}
+\bibcite{chocons}{4}
+\bibcite{holme2003subnetwork}{5}
+\bibcite{modsys}{6}
+\bibcite{jeong2000large}{7}
+\bibcite{bigg}{8}
+\bibcite{newman2010networks}{9}
+\bibcite{proulx2005network}{10}
+\bibcite{sporns2014contributions}{11}
+>>>>>>> remotes/origin/related_works
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces The in-degree, out-degree and degree distributions of the network.}}{2}}
+\newlabel{fig:dist}{{1}{2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces All 13 directed three-node motifs.}}{2}}
+\newlabel{fig:motifs}{{2}{2}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Authors contributions}{2}}
