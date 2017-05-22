@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2016.8.8)  22 MAY 2017 20:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2016.8.8)  22 MAY 2017 20:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -816,7 +816,7 @@ blic/amsfonts/cm/cmr9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on report.pdf (3 pages, 190421 bytes).
+Output written on report.pdf (3 pages, 190436 bytes).
 PDF statistics:
  127 PDF objects out of 1000 (max. 8388607)
  76 compressed objects within 1 object stream
