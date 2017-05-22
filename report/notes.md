@@ -51,5 +51,5 @@ follow my earlier suggestions.
 Overall: The paper is not badly written, but many errors and typos remain
 (e.g. "Resutls"). The authors should reread the paper.
 
-### TODO
+### DONE
 Add contact details (e-mails).
