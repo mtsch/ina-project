@@ -46,9 +46,13 @@ grestore
 \abstract{Subsystems are parts of a metabolism that perform different important
   tasks in a cell. In this article, we explore these subsystems from a network
   science point of view. We attempt to find ways of detecting subsystems in a
-  metabolic network using community detection algorithms. We use the algorithms
-  on a metabolic network of the Chinese hamster ovary cell, a mammalian cell
-  that is commonly used in biomedical research and in biotechnology.}
+  metabolic network using community detection algorithms.  We use the Louvain
+  modularity optimization algorithm and the Clauset-Newman-Moore algorithms as a
+  baseline against which we compare the effectiveness of other algorithms. As a
+  comparison, we use the Girvan-Newman algorithm and a motif-based community
+  detection approach. We present the results on a metabolic network of the
+  Chinese hamster ovary cell, a mammalian cell that is commonly used in
+  biomedical research and in biotechnology.}
 
 % tole gre v abstract
 %\PACS{
@@ -83,9 +87,13 @@ enzymes that catalyze the reaction, but do not directly partake in
 it. Other commonly used representations are simplified representations, where
 one of the types of vertices is omitted~\cite{newman2010networks}.
 
-In this article, we analyze the subsystems in a metabolic network of the
-Chinese hamster ovary cell. We explore different methods of detecting the
-subsystems and compare their structures.
+In this article, we analyze the subsystems in a metabolic network of the Chinese
+hamster ovary cell. We explore different methods of detecting the subsystems and
+compare their structures, focusing on the Girvan-Newman
+method~\cite{girvan2002community} and an approach based on network
+motifs~\cite{benson2016higher}. We expect these algorithms to outperform other
+commoly used algorithms such as Louvain optimization or the Clauset-Newman-Moore
+algorithm.
 
 \section{Related works}
 \label{sec:related}

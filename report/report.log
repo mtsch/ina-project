@@ -1,11 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2016.8.8)  22 MAY 2017 20:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2016.8.8)  22 MAY 2017 20:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**report
+**\nonstopmode\input report.tex
 (./report.tex
-LaTeX2e <2015/10/01> patch level 2
-Babel <3.9m> and hyphenation patterns for 79 languages loaded.
 
 LaTeX Warning: File `leer.eps' already exists on the system.
                Not generating it from this source.
@@ -507,41 +505,46 @@ LaTeX Font Info:    ... okay on input line 32.
 )
 SVJour warning: Missing \date
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 59.
+(Font)              <7> on input line 63.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 59.
+(Font)              <5> on input line 63.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 59.
+(Font)              <9> on input line 63.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 59.
+(Font)              <6> on input line 63.
 
-Overfull \hbox (1.30217pt too wide) in paragraph at lines 64--70
+Overfull \hbox (1.30217pt too wide) in paragraph at lines 68--74
 \OT1/cmr/m/n/10 ing rapidly. Ad-vances in data ac-qui-si-tion, stor-age and ana
 l-
  []
 
 
-Overfull \hbox (2.49648pt too wide) in paragraph at lines 86--89
+Overfull \hbox (2.49648pt too wide) in paragraph at lines 90--97
 []\OT1/cmr/m/n/10 In this ar-ti-cle, we an-a-lyze the sub-sys-tems in a metabol
 ic
+ []
+
+
+Overfull \hbox (6.9827pt too wide) in paragraph at lines 90--97
+\OT1/cmr/m/n/10 their struc-tures, fo-cus-ing on the Girvan-Newman method [5]
  []
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
-Overfull \hbox (0.94104pt too wide) in paragraph at lines 140--144
+Overfull \hbox (0.94104pt too wide) in paragraph at lines 148--152
 []\OT1/cmr/m/n/10 The motif-based clus-ter-ing method, mo-tif count-ing and
  []
 
 
-Overfull \hbox (15.46877pt too wide) in paragraph at lines 148--153
+Overfull \hbox (15.46877pt too wide) in paragraph at lines 156--161
 \OT1/cmr/m/n/10 These prob-a-bly rep-re-sent sources and sinks of the metabolis
 m. 
  []
 
 
-Overfull \hbox (0.32977pt too wide) in paragraph at lines 169--174
+Overfull \hbox (0.32977pt too wide) in paragraph at lines 177--182
 []\OT1/cmr/m/n/10 First, we count the ap-pear-ances of all 13 di-rected three-
  []
 
@@ -549,7 +552,7 @@ Overfull \hbox (0.32977pt too wide) in paragraph at lines 169--174
 File: ../plots/degreesmall.pdf Graphic file (type pdf)
 
 <use ../plots/degreesmall.pdf>
-Package pdftex.def Info: ../plots/degreesmall.pdf used on input line 187.
+Package pdftex.def Info: ../plots/degreesmall.pdf used on input line 195.
 (pdftex.def)             Requested size: 230.39844pt x 98.74463pt.
 Package epstopdf Info: Source file: <M1-plain.eps>
 (epstopdf)                    date: 2017-05-22 16:06:24
@@ -559,14 +562,14 @@ Package epstopdf Info: Source file: <M1-plain.eps>
 (epstopdf)                    size: 2780 bytes
 (epstopdf)             Command: <repstopdf --outfile=M1-plain-eps-converted-to.
 pdf M1-plain.eps>
-(epstopdf)             \includegraphics on input line 198.
+(epstopdf)             \includegraphics on input line 206.
 Package epstopdf Info: Output file is already uptodate.
 
 <M1-plain-eps-converted-to.pdf, id=14, 49.18375pt x 146.5475pt>
 File: M1-plain-eps-converted-to.pdf Graphic file (type pdf)
 
 <use M1-plain-eps-converted-to.pdf>
-Package pdftex.def Info: M1-plain-eps-converted-to.pdf used on input line 198.
+Package pdftex.def Info: M1-plain-eps-converted-to.pdf used on input line 206.
 (pdftex.def)             Requested size: 6.7656pt x 20.15918pt.
 Package epstopdf Info: Source file: <M2-plain.eps>
 (epstopdf)                    date: 2017-05-22 16:06:24
@@ -576,14 +579,14 @@ Package epstopdf Info: Source file: <M2-plain.eps>
 (epstopdf)                    size: 2871 bytes
 (epstopdf)             Command: <repstopdf --outfile=M2-plain-eps-converted-to.
 pdf M2-plain.eps>
-(epstopdf)             \includegraphics on input line 199.
+(epstopdf)             \includegraphics on input line 207.
 Package epstopdf Info: Output file is already uptodate.
 
 <M2-plain-eps-converted-to.pdf, id=15, 78.2925pt x 146.5475pt>
 File: M2-plain-eps-converted-to.pdf Graphic file (type pdf)
 
 <use M2-plain-eps-converted-to.pdf>
-Package pdftex.def Info: M2-plain-eps-converted-to.pdf used on input line 199.
+Package pdftex.def Info: M2-plain-eps-converted-to.pdf used on input line 207.
 (pdftex.def)             Requested size: 10.76973pt x 20.15918pt.
 Package epstopdf Info: Source file: <M3-plain.eps>
 (epstopdf)                    date: 2017-05-22 16:06:24
@@ -593,14 +596,14 @@ Package epstopdf Info: Source file: <M3-plain.eps>
 (epstopdf)                    size: 2945 bytes
 (epstopdf)             Command: <repstopdf --outfile=M3-plain-eps-converted-to.
 pdf M3-plain.eps>
-(epstopdf)             \includegraphics on input line 200.
+(epstopdf)             \includegraphics on input line 208.
 Package epstopdf Info: Output file is already uptodate.
 
 <M3-plain-eps-converted-to.pdf, id=16, 78.2925pt x 146.5475pt>
 File: M3-plain-eps-converted-to.pdf Graphic file (type pdf)
 
 <use M3-plain-eps-converted-to.pdf>
-Package pdftex.def Info: M3-plain-eps-converted-to.pdf used on input line 200.
+Package pdftex.def Info: M3-plain-eps-converted-to.pdf used on input line 208.
 (pdftex.def)             Requested size: 10.76973pt x 20.15918pt.
 Package epstopdf Info: Source file: <M4-plain.eps>
 (epstopdf)                    date: 2017-05-22 16:06:24
@@ -610,14 +613,14 @@ Package epstopdf Info: Source file: <M4-plain.eps>
 (epstopdf)                    size: 3002 bytes
 (epstopdf)             Command: <repstopdf --outfile=M4-plain-eps-converted-to.
 pdf M4-plain.eps>
-(epstopdf)             \includegraphics on input line 201.
+(epstopdf)             \includegraphics on input line 209.
 Package epstopdf Info: Output file is already uptodate.
 
 <M4-plain-eps-converted-to.pdf, id=17, 54.2025pt x 146.5475pt>
 File: M4-plain-eps-converted-to.pdf Graphic file (type pdf)
 
 <use M4-plain-eps-converted-to.pdf>
-Package pdftex.def Info: M4-plain-eps-converted-to.pdf used on input line 201.
+Package pdftex.def Info: M4-plain-eps-converted-to.pdf used on input line 209.
 (pdftex.def)             Requested size: 7.45596pt x 20.15918pt.
 Package epstopdf Info: Source file: <M5-plain.eps>
 (epstopdf)                    date: 2017-05-22 16:06:24
@@ -627,14 +630,14 @@ Package epstopdf Info: Source file: <M5-plain.eps>
 (epstopdf)                    size: 2782 bytes
 (epstopdf)             Command: <repstopdf --outfile=M5-plain-eps-converted-to.
 pdf M5-plain.eps>
-(epstopdf)             \includegraphics on input line 202.
+(epstopdf)             \includegraphics on input line 210.
 Package epstopdf Info: Output file is already uptodate.
 
 <M5-plain-eps-converted-to.pdf, id=18, 49.18375pt x 146.5475pt>
 File: M5-plain-eps-converted-to.pdf Graphic file (type pdf)
 
 <use M5-plain-eps-converted-to.pdf>
-Package pdftex.def Info: M5-plain-eps-converted-to.pdf used on input line 202.
+Package pdftex.def Info: M5-plain-eps-converted-to.pdf used on input line 210.
 (pdftex.def)             Requested size: 6.7656pt x 20.15918pt.
 Package epstopdf Info: Source file: <M6-plain.eps>
 (epstopdf)                    date: 2017-05-22 16:06:24
@@ -644,14 +647,14 @@ Package epstopdf Info: Source file: <M6-plain.eps>
 (epstopdf)                    size: 2875 bytes
 (epstopdf)             Command: <repstopdf --outfile=M6-plain-eps-converted-to.
 pdf M6-plain.eps>
-(epstopdf)             \includegraphics on input line 203.
+(epstopdf)             \includegraphics on input line 211.
 Package epstopdf Info: Output file is already uptodate.
 
 <M6-plain-eps-converted-to.pdf, id=19, 49.18375pt x 146.5475pt>
 File: M6-plain-eps-converted-to.pdf Graphic file (type pdf)
 
 <use M6-plain-eps-converted-to.pdf>
-Package pdftex.def Info: M6-plain-eps-converted-to.pdf used on input line 203.
+Package pdftex.def Info: M6-plain-eps-converted-to.pdf used on input line 211.
 (pdftex.def)             Requested size: 6.7656pt x 20.15918pt.
 Package epstopdf Info: Source file: <M7-plain.eps>
 (epstopdf)                    date: 2017-05-22 16:06:24
@@ -661,14 +664,14 @@ Package epstopdf Info: Source file: <M7-plain.eps>
 (epstopdf)                    size: 2870 bytes
 (epstopdf)             Command: <repstopdf --outfile=M7-plain-eps-converted-to.
 pdf M7-plain.eps>
-(epstopdf)             \includegraphics on input line 204.
+(epstopdf)             \includegraphics on input line 212.
 Package epstopdf Info: Output file is already uptodate.
 
 <M7-plain-eps-converted-to.pdf, id=20, 49.18375pt x 146.5475pt>
 File: M7-plain-eps-converted-to.pdf Graphic file (type pdf)
 
 <use M7-plain-eps-converted-to.pdf>
-Package pdftex.def Info: M7-plain-eps-converted-to.pdf used on input line 204.
+Package pdftex.def Info: M7-plain-eps-converted-to.pdf used on input line 212.
 (pdftex.def)             Requested size: 6.7656pt x 20.15918pt.
 Package epstopdf Info: Source file: <M8-plain.eps>
 (epstopdf)                    date: 2017-05-22 16:06:24
@@ -678,14 +681,14 @@ Package epstopdf Info: Source file: <M8-plain.eps>
 (epstopdf)                    size: 2710 bytes
 (epstopdf)             Command: <repstopdf --outfile=M8-plain-eps-converted-to.
 pdf M8-plain.eps>
-(epstopdf)             \includegraphics on input line 205.
+(epstopdf)             \includegraphics on input line 213.
 Package epstopdf Info: Output file is already uptodate.
 
 <M8-plain-eps-converted-to.pdf, id=21, 70.2625pt x 88.33pt>
 File: M8-plain-eps-converted-to.pdf Graphic file (type pdf)
 
 <use M8-plain-eps-converted-to.pdf>
-Package pdftex.def Info: M8-plain-eps-converted-to.pdf used on input line 205.
+Package pdftex.def Info: M8-plain-eps-converted-to.pdf used on input line 213.
 (pdftex.def)             Requested size: 16.03566pt x 20.15918pt.
 Package epstopdf Info: Source file: <M9-plain.eps>
 (epstopdf)                    date: 2017-05-22 16:06:24
@@ -695,14 +698,14 @@ Package epstopdf Info: Source file: <M9-plain.eps>
 (epstopdf)                    size: 2674 bytes
 (epstopdf)             Command: <repstopdf --outfile=M9-plain-eps-converted-to.
 pdf M9-plain.eps>
-(epstopdf)             \includegraphics on input line 206.
+(epstopdf)             \includegraphics on input line 214.
 Package epstopdf Info: Output file is already uptodate.
 
 <M9-plain-eps-converted-to.pdf, id=22, 30.1125pt x 146.5475pt>
 File: M9-plain-eps-converted-to.pdf Graphic file (type pdf)
 
 <use M9-plain-eps-converted-to.pdf>
-Package pdftex.def Info: M9-plain-eps-converted-to.pdf used on input line 206.
+Package pdftex.def Info: M9-plain-eps-converted-to.pdf used on input line 214.
 (pdftex.def)             Requested size: 4.1422pt x 20.15918pt.
 Package epstopdf Info: Source file: <M10-plain.eps>
 (epstopdf)                    date: 2017-05-22 16:06:24
@@ -712,14 +715,14 @@ Package epstopdf Info: Source file: <M10-plain.eps>
 (epstopdf)                    size: 2714 bytes
 (epstopdf)             Command: <repstopdf --outfile=M10-plain-eps-converted-to
 .pdf M10-plain.eps>
-(epstopdf)             \includegraphics on input line 207.
+(epstopdf)             \includegraphics on input line 215.
 Package epstopdf Info: Output file is already uptodate.
 
 <M10-plain-eps-converted-to.pdf, id=23, 70.2625pt x 88.33pt>
 File: M10-plain-eps-converted-to.pdf Graphic file (type pdf)
 
 <use M10-plain-eps-converted-to.pdf>
-Package pdftex.def Info: M10-plain-eps-converted-to.pdf used on input line 207.
+Package pdftex.def Info: M10-plain-eps-converted-to.pdf used on input line 215.
 
 (pdftex.def)             Requested size: 16.03566pt x 20.15918pt.
 Package epstopdf Info: Source file: <M11-plain.eps>
@@ -730,14 +733,14 @@ Package epstopdf Info: Source file: <M11-plain.eps>
 (epstopdf)                    size: 2788 bytes
 (epstopdf)             Command: <repstopdf --outfile=M11-plain-eps-converted-to
 .pdf M11-plain.eps>
-(epstopdf)             \includegraphics on input line 208.
+(epstopdf)             \includegraphics on input line 216.
 Package epstopdf Info: Output file is already uptodate.
 
 <M11-plain-eps-converted-to.pdf, id=24, 70.2625pt x 88.33pt>
 File: M11-plain-eps-converted-to.pdf Graphic file (type pdf)
 
 <use M11-plain-eps-converted-to.pdf>
-Package pdftex.def Info: M11-plain-eps-converted-to.pdf used on input line 208.
+Package pdftex.def Info: M11-plain-eps-converted-to.pdf used on input line 216.
 
 (pdftex.def)             Requested size: 16.03566pt x 20.15918pt.
 Package epstopdf Info: Source file: <M12-plain.eps>
@@ -748,14 +751,14 @@ Package epstopdf Info: Source file: <M12-plain.eps>
 (epstopdf)                    size: 2773 bytes
 (epstopdf)             Command: <repstopdf --outfile=M12-plain-eps-converted-to
 .pdf M12-plain.eps>
-(epstopdf)             \includegraphics on input line 209.
+(epstopdf)             \includegraphics on input line 217.
 Package epstopdf Info: Output file is already uptodate.
 
 <M12-plain-eps-converted-to.pdf, id=25, 30.1125pt x 146.5475pt>
 File: M12-plain-eps-converted-to.pdf Graphic file (type pdf)
 
 <use M12-plain-eps-converted-to.pdf>
-Package pdftex.def Info: M12-plain-eps-converted-to.pdf used on input line 209.
+Package pdftex.def Info: M12-plain-eps-converted-to.pdf used on input line 217.
 
 (pdftex.def)             Requested size: 4.1422pt x 20.15918pt.
 Package epstopdf Info: Source file: <M13-plain.eps>
@@ -766,18 +769,18 @@ Package epstopdf Info: Source file: <M13-plain.eps>
 (epstopdf)                    size: 2858 bytes
 (epstopdf)             Command: <repstopdf --outfile=M13-plain-eps-converted-to
 .pdf M13-plain.eps>
-(epstopdf)             \includegraphics on input line 210.
+(epstopdf)             \includegraphics on input line 218.
 Package epstopdf Info: Output file is already uptodate.
 
 <M13-plain-eps-converted-to.pdf, id=26, 70.2625pt x 88.33pt>
 File: M13-plain-eps-converted-to.pdf Graphic file (type pdf)
 
 <use M13-plain-eps-converted-to.pdf>
-Package pdftex.def Info: M13-plain-eps-converted-to.pdf used on input line 210.
+Package pdftex.def Info: M13-plain-eps-converted-to.pdf used on input line 218.
 
 (pdftex.def)             Requested size: 16.03566pt x 20.15918pt.
 
-Overfull \hbox (5.10918pt too wide) in paragraph at lines 225--230
+Overfull \hbox (5.10918pt too wide) in paragraph at lines 233--238
  [][] 
  []
 
@@ -801,7 +804,7 @@ Here is how much of TeX's memory you used:
  5667 multiletter control sequences out of 15000+600000
  9335 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,11n,28p,323b,317s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,11n,28p,346b,317s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/shar
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texmf-dist/fonts/type1/publ
@@ -813,7 +816,7 @@ blic/amsfonts/cm/cmr9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on report.pdf (3 pages, 189982 bytes).
+Output written on report.pdf (3 pages, 190421 bytes).
 PDF statistics:
  127 PDF objects out of 1000 (max. 8388607)
  76 compressed objects within 1 object stream

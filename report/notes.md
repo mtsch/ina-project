@@ -6,7 +6,7 @@ Project proposal | Problem & novelty | Related work | Methods & results | Style
 
 ## Major comments
 
-### TODO
+### DONE
 Abstract: The abstract is well written, but I believe that the third sentence
 should be extended to two or three sentences more precisely describing the
 work. Also, write in present tense (there should be no "will"). This also
@@ -18,10 +18,10 @@ relate that to existing knowledge. What methods will be adopted (be precise)?
 And why do the authors believe that they will give some meaningful results? What
 kind of results?
 
-### TODO
+### DONE
 Related work: Seems to be missing since only the field of the work is described.
 
-### TODO
+### DONE (?)
 Methods: So far this text has little value for the reader. Some preliminary
 results should already be conducted in order to see what would make sense.
 
