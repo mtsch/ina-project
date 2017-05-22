@@ -10,6 +10,12 @@ Austin~R Benson, David~F Gleich, and Jure Leskovec.
 \newblock Higher-order organization of complex networks.
 \newblock {\em Science}, 353(6295):163--166, 2016.
 
+\bibitem{girvan2002community}
+Michelle Girvan and Mark~EJ Newman.
+\newblock Community structure in social and biological networks.
+\newblock {\em Proceedings of the national academy of sciences},
+  99(12):7821--7826, 2002.
+
 \bibitem{chocons}
 Hooman Hefzi, Kok~Siong Ang, Michael Hanscho, Aarash Bordbar, David
   Ruckerbauer, Meiyappan Lakshmanan, Camila~A Orellana, Deniz Baycin-Hizal,
