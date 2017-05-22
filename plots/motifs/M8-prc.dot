@@ -1,0 +1,14 @@
+/*****
+GId:6  Count: 33632151
+*****/
+
+digraph G {
+  graph [splines=false overlap=false]
+  node  [shape=ellipse, width=0.3, height=0.3, label=""]
+  0 ;
+  1 ;
+  2 ;
+  0 -> 1;
+  0 -> 2;
+  label = "\nM8\n";  fontsize=24;
+}
