@@ -1,4 +1,14 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{barabasi2004network}
+Albert-Laszlo Barabasi and Zoltan~N Oltvai.
+\newblock Network biology: understanding the cell's functional organization.
+\newblock {\em Nature reviews genetics}, 5(2):101--113, 2004.
+
+\bibitem{benson2016higher}
+Austin~R Benson, David~F Gleich, and Jure Leskovec.
+\newblock Higher-order organization of complex networks.
+\newblock {\em Science}, 353(6295):163--166, 2016.
 
 \bibitem{chocons}
 Hooman Hefzi, Kok~Siong Ang, Michael Hanscho, Aarash Bordbar, David
@@ -7,6 +17,16 @@ Hooman Hefzi, Kok~Siong Ang, Michael Hanscho, Aarash Bordbar, David
 \newblock A consensus genome-scale reconstruction of chinese hamster ovary cell
   metabolism.
 \newblock {\em Cell Systems}, 3(5):434--443, 2016.
+
+\bibitem{holme2003subnetwork}
+Petter Holme, Mikael Huss, and Hawoong Jeong.
+\newblock Subnetwork hierarchies of biochemical pathways.
+\newblock {\em Bioinformatics}, 19(4):532--538, 2003.
+
+\bibitem{modsys}
+B.~Ingalls.
+\newblock {\em Mathematical Modelling in Systems Biology: An Introduction}.
+\newblock Applied Mathematics, University of Waterloo, 2012.
 
 \bibitem{jeong2000large}
 Hawoong Jeong, B{\'a}lint Tombor, R{\'e}ka Albert, Zoltan~N Oltvai, and A-L
@@ -20,5 +40,21 @@ Zachary~A. King, Justin Lu, Andreas Dräger, Philip Miller, Stephen Federowicz,
 \newblock Bigg models: A platform for integrating, standardizing and sharing
   genome-scale models.
 \newblock {\em Nucleic Acids Research}, 44(D1):D515, 2016.
+
+\bibitem{newman2010networks}
+M.~Newman.
+\newblock {\em Networks: An Introduction}.
+\newblock OUP Oxford, 2010.
+
+\bibitem{proulx2005network}
+Stephen~R Proulx, Daniel~EL Promislow, and Patrick~C Phillips.
+\newblock Network thinking in ecology and evolution.
+\newblock {\em Trends in Ecology \& Evolution}, 20(6):345--353, 2005.
+
+\bibitem{sporns2014contributions}
+Olaf Sporns.
+\newblock Contributions and challenges for network models in cognitive
+  neuroscience.
+\newblock {\em Nature neuroscience}, 17(5):652--660, 2014.
 
 \end{thebibliography}
