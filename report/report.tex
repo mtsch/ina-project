@@ -31,12 +31,12 @@ grestore
 %
 \title{Network analysis of metabolic subsystems}
 %\subtitle{Do you have a subtitle?\\ If so, write it here}
-\author{Rok Novosel\inst{1} \and Matija \v{C}ufar\inst{2}
+\author{Rok Novosel \and Matija \v{C}ufar
 % \thanks is optional - remove next line if not needed
 %\thanks{\emph{Present address:} Insert the address here if needed}%
 }                     % Do not remove
 %
-\institute{Fakulteta za ra\v{c}unalni\v{s}tvo in informatiko}
+\institute{Faculty of Computer and Information Science}
 %
 %\date{Received: date / Revised version: date}
 %
@@ -58,49 +58,50 @@ grestore
 \section{Introduction}
 \label{sec:intro}
 
-Since the beginning the turn of the century, life sciences have been evolving
+Since the turn of the century, life sciences have been evolving
 rapidly. Advances in data acquisition, storage and analysis technology have
 allowed scientist to gather immense amounts of data and build complex models
-from it\cite{modsys}. These complicated models have brought people of various
-backgrounds, such as physics, mathemathics and computer science into the field
+from it~\cite{modsys}. These complicated models have brought people of various
+backgrounds, such as physics, mathematics and computer science into the field
 of biology.
 
-One of such fileds, itself a very recent development, is network science, which
+One such field is network science, which
 is often used to analyze different kinds of networks that appear in the various
-subfileds of modern biology, including ecology\cite{proulx2005network}, systems
-biology\cite{barabasi2004network} and
-neuroscience\cite{sporns2014contributions}.
+subfields of modern biology, including ecology~\cite{proulx2005network}, systems
+biology~\cite{barabasi2004network} and neuroscience~\cite{sporns2014contributions}.
 
-Metabolic networks\cite{jeong2000large} are used to model the meta-bolisms of
+Metabolic networks~\cite{jeong2000large} are used to model the meta-bolisms of
 various organisms. They are usually represented with a bipartite graph composed
 of two types of vertices: reactions and chemicals produced and consumed by the
-reactions. The where edges in such a network connect chemicals to
+reactions. The edges in such a network connect chemicals to
 reactions. Furthermore, the edges are directed indicating whether the chemical
-was produced or consumed. A third kind of vertices can be added to represent
+was produced or consumed. A third kind of vertex can be added to represent
 enzymes that catalyze the reaction, but do not directly partake in
-it. Other commonly used representations are simplified reprpresentations, where
-one of the types of vertices is omitted\cite{newman2010networks}.
+it. Other commonly used representations are simplified representations, where
+one of the types of vertices is omitted~\cite{newman2010networks}.
 
-In this article, we will analyze the subsystems in a metabolic network of the
-Chinese hamster ovary cell. We will explore different methods of detecting the
+In this article, we analyze the subsystems in a metabolic network of the
+Chinese hamster ovary cell. We explore different methods of detecting the
 subsystems and compare their structures.
+
+\section{Related works}
 
 \section{Methods}
 \label{sec:methods}
 
-We will apply a few different community detection methods and compare how well
+We apply a few different community detection methods and compare how well
 they detect the subsystems of a metabolic network.
 
-We haven't decided on the algorithms yet, but we will try some of the following:
+We haven't decided on the algorithms yet, but we try some of the following:
 
 \begin{itemize}
 \item
   Some of the algorithms from the lectures.
 \item
-  Community detection based on motifs\cite{benson2016higher}.
+  Community detection based on motifs~\cite{benson2016higher}.
 \item
   Removing nodes with the highest betweenness centrality (or some other measure)
-  and observing how the network falls apart\cite{holme2003subnetwork}.
+  and observing how the network falls apart~\cite{holme2003subnetwork}.
 \end{itemize}
 
 \section{Results}
@@ -108,15 +109,15 @@ We haven't decided on the algorithms yet, but we will try some of the following:
 
 In this article, we analyse a metabolic network of the Chinese hamster
 ovary (CHO) cell. The CHO cell is frequently used in biological and medical
-research and in the production of biopharmaceuticals\cite{chocons}.
+research and in the production of biopharmaceuticals~\cite{chocons}.
 
-We have used a whole-cell metabolic network of the Chinese hamster ovary (CHO)
-cell that was taken from the BiGG database\cite{bigg,chocons}. The original
+We used a whole-cell metabolic network of the Chinese hamster ovary (CHO)
+cell that was taken from the BiGG database~\cite{bigg,chocons}. The original
 network contains 4,456 metabolites that take part in 6,663 reactions. The
 reactions and metabolites are annotated with additional metadata, such as name,
 subsystem, BiGG ID etc.
 
-We have simplified the network to a simple directed graph, where reactions are
+We simplify the network to a simple directed graph, where reactions are
 represented with nodes. If one reaction produces a metabolite that is used by
 another reaction, they are connected by an arc. This network has 6,663 nodes and
 656,609 arcs. If we treat as an undirected network, it has 546208 edges.

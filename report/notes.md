@@ -31,15 +31,15 @@ results should already be conducted in order to see what would make sense.
 I would recommend changing the title to "Network analysis of metabolic
 subsystems".
 
-### TODO
+### DONE
 Why are there superscripts next to authors names? Change the name of the faculty
 to the official title in English (see other proposals). Remove text "the date
 of..." and "PACS...".
 
-### TODO
+### DONE
 Introduction: "from it[5]" --> "from it [5]"
 
-### TODO
+### DONE
 Results: I would remove the subsection. Try to avoid future or past tense.
 
 ### TODO
@@ -47,7 +47,7 @@ Results: Provide a table with standard statistics of the networks and briefly
 discuss them in the text. As I already mentioned, Figure 1 is unclear. Please
 follow my earlier suggestions.
 
-### TODO
+### DONE
 Overall: The paper is not badly written, but many errors and typos remain
 (e.g. "Resutls"). The authors should reread the paper.
 

@@ -403,8 +403,6 @@ to\/}: \ignorespaces#1}}\endgroup\ignorespaces}
 %
 \def\maketitle{\par
 \ch@ckobl{journalname}{Noname}
-\ch@ckobl{date}{The date of receipt and acceptance will be inserted by
-the editor}
 \ch@ckobl{title}{A title should be given}
 \ch@ckobl{author}{Name(s) and initial(s) of author(s) should be given}
 \ch@ckobl{institute}{Address(es) of author(s) should be given}

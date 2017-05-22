@@ -76,8 +76,7 @@
 %
 \def\epj@maketitle{\par
 \ch@ckobl{journalname}{Noname}
-\ch@ckobl{date}{the date of receipt and acceptance should be inserted
-later}
+\ch@ckobl{date}{}
 \ch@ckobl{title}{A title should be given}
 \ch@ckobl{author}{Name(s) and initial(s) of author(s) should be given}
 \ch@ckobl{institute}{Address(es) of author(s) should be given}
@@ -199,10 +198,6 @@ later}
   {\sffamily\bfseries\abstractname}]%
   \leftskip=1.5cm\rightskip=\leftskip
   \@abstract
-  \if@nopacs\else
-     \ch@ckobl{PACS}{{XX.XX.XX}{No PACS code given}}%
-     \@@PACS
-  \fi
   \endtrivlist}%
  \if@normhead
     \egroup % end of header box
