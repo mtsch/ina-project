@@ -22,3 +22,7 @@
 *.blg
 *.log
 *.gz
+.idea/
+report/*.log
+report/*.pdf
+report/*.gz
