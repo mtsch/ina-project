@@ -154,10 +154,10 @@ library~\cite{networkx}.
 \label{sec:results}
 
 The network has a very large connected component of 6,036 nodes, while the other
-components are very small, as they are composed of at most 4 nodes. The largest
-connected component contains a strongly connected component of 5,307 nodes,
-while the other nodes are isolated. These probably represent sources and sinks
-of the metabolism.
+components are very small, as they are composed of at most four nodes. The
+largest connected component contains a strongly connected component of 5,307
+nodes, while the other nodes are isolated. These probably represent sources and
+sinks of the meta-bolism.
 
 The network appears to have a scale-free structure. Its in-degree, out-degree
 and degree distributions are plotted in figure~\ref{fig:dist}. Some commonly
@@ -165,12 +165,13 @@ used network properties are presented in table~\ref{tab:metrics}.
 
 \begin{table}
   \centering
-  \begin{tabular}{l|l|l|l}
-    $C_d$ & $C_u$ & $E_{90}$ & $\rho$ \\
-    0.012 & 0.069 & 15 & 0.015
+  \begin{tabular}{l|l|l|l|l}
+    $\langle C \rangle_d$ & $\langle C \rangle_u$ & $E_{90}$ & $\rho$ & $\langle
+    k \rangle$ \\ 0.012 & 0.069 & 15 & 0.015 & 194.1
   \end{tabular}
-  \caption{The directed and undirected clustering coefficients $C_d$ and
-    $C_u$, effective diameter $E_{90}$ and the density $\rho$ of the network.}
+  \caption{The directed and undirected clustering coefficients $\langle
+    C\rangle_d$ and $\langle C\rangle_u$, effective diameter $E_{90}$, the
+    density $\rho$ and the average degree $\langle k \rangle$ of the network.}
   \label{tab:metrics}
 \end{table}
 
@@ -187,6 +188,14 @@ the network annotation. The results are not the best, but still much better than
 the Louvain and the Clauset-Newman-Moore method, listed in
 table~\ref{tab:others}. We partly attribute the quality of the results to the
 fact that most biological networks tend to be noisy.
+
+The results show that the motif M4 is the most overrepresented motif in the
+network, while also being the motif that works best with clustering. The motif
+is a fully connected triangle, which represents groups of tightly coupled
+two-way chemical reactions. Another thing we see from the results is that
+triangular motifs - motifs in which all three nodes are connected in some way -
+tend work better with clustering than wedge shaped motifs. This is also probably
+a consequence of tight coupling between the reactions that form a subsystem.
 
 \emph{NOTE: we plan on also using Infomap and the Girvan-Newman algorithms, but
   it seems like they will take a few more days to compute.}
@@ -238,8 +247,6 @@ fact that most biological networks tend to be noisy.
     used.}
   \label{tab:others}
 \end{table}
-
-\section{Discussion}
 
 \section{Conclusion}
 
