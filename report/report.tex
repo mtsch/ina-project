@@ -146,6 +146,16 @@ Louvain modularity optimization algorithm~\cite{blondel2008fast} and the
 Clauset-Newman-Moore algorithm~\cite{clauset2004finding}, as the baseline and
 compare them to motif-based clustering methods~\cite{benson2016higher}.
 
+The Louvain modularity optimization algorithm is a method of community detection
+which optimizes the modularity of a network. Modularity~\cite{girvan2002community}
+is a value which measures the density of edges within communities to edges outside 
+communities. Optimizing this value theoretically gives us the best possible partitioning of a given network.
+
+Clauset-Newman-Moore algorithm also optimizes the modularity measure. Starting with each vertex
+as a single community it repeatedly joins together two communities which will give the largest
+increase in modularity. It builds a dendrogram which represents the hierarchical decomposition
+of a network into communities at all levels.
+
 The motif-based clustering method, motif counting and the Clauset-Newman-Moore
 algorithm were taken from the SNAP library~\cite{leskovec2016snap} and the
 Louvain modularity optimization algorithm was taken from the NetworkX Python
