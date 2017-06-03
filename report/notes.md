@@ -1,55 +1,39 @@
-Project proposal | Problem & novelty | Related work | Methods & results | Style
-& writing | Single author | Final score :---: | :---: | :---:| :---: | :---: |
-:---: | :---: Metabolic (e) | o | - | - / o | + | | 65% (50%)
+### Network analysis of metabolic subsystems (80%)
 
-# Network analysis of metabolic subsystems
+Very nice improvement from last time! Please also do the remaining part on this
+level. I only list some minor comments below regarding the presentation, but
+please consider also my earlier comments that you have not yet managed.
 
-## Major comments
+#DONE
+"...Clauset-Newman-Moore algorithm..." in the abstract.
 
-### DONE
-Abstract: The abstract is well written, but I believe that the third sentence
-should be extended to two or three sentences more precisely describing the
-work. Also, write in present tense (there should be no "will"). This also
-applies for other sections.
+#DONE
+Use the term "community detection" in the last paragraph of Section 1 (before
+you start talking about different algorithms).
 
-### TODO
-Introduction: The introduction should precisely describe the methods used and
-relate that to existing knowledge. What methods will be adopted (be precise)?
-And why do the authors believe that they will give some meaningful results? What
-kind of results?
+#DONE
+"2 Related work", "Jeong et al. [10] offer...", "Holme et al. [8] present" etc.
 
-### DONE
-Related work: Seems to be missing since only the field of the work is described.
+#DONE
+"...subnetworks appear at different levels of the hierarchy."
 
-### DONE (?)
-Methods: So far this text has little value for the reader. Some preliminary
-results should already be conducted in order to see what would make sense.
+#TODO
+In Section 3, you should at least briefly introduce each of the methods used (do
+not go too deep). Now they are only listed.
 
-## Minor comments
+#DONE
+You should also briefly introduce the measures used in Table 1. In particular,
+how is directed clustering computed? I would recommend to give a formula for
+each measure.
 
-### DONE
-I would recommend changing the title to "Network analysis of metabolic
-subsystems".
+#DONE
+Use \hline in Table 1, "...in Figure 1.", "...in Table 1.", "...with ten
+instances...".
 
-### DONE
-Why are there superscripts next to authors names? Change the name of the faculty
-to the official title in English (see other proposals). Remove text "the date
-of..." and "PACS...".
+#TODO
+Redo Figure 1 as I have mentioned previously. Now it is really hard to see
+anything here.
 
-### DONE
-Introduction: "from it[5]" --> "from it [5]"
-
-### DONE
-Results: I would remove the subsection. Try to avoid future or past tense.
-
-### TODO
-Results: Provide a table with standard statistics of the networks and briefly
-discuss them in the text. As I already mentioned, Figure 1 is unclear. Please
-follow my earlier suggestions.
-
-### DONE
-Overall: The paper is not badly written, but many errors and typos remain
-(e.g. "Resutls"). The authors should reread the paper.
-
-### DONE
-Add contact details (e-mails).
+#TODO
+Would it be better to add also the p-values in Table 2? Maybe you can replace
+the Z-scores with p-values.

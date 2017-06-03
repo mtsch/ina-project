@@ -47,7 +47,7 @@ grestore
   tasks in a cell. In this article, we explore these subsystems from a network
   science point of view. We attempt to find ways of detecting subsystems in a
   metabolic network using community detection algorithms.  We use the Louvain
-  modularity optimization algorithm and the Clauset-Newman-Moore algorithms as a
+  modularity optimization algorithm and the Clauset-Newman-Moore algorithm as a
   baseline against which we compare the effectiveness of other algorithms. As a
   comparison, we use the Girvan-Newman algorithm and a motif-based community
   detection approach. We present the results on a metabolic network of the
@@ -92,8 +92,8 @@ hamster ovary cell. We explore different methods of detecting the subsystems and
 compare their structures, focusing on the Girvan-Newman
 method~\cite{girvan2002community} and an approach based on network
 motifs~\cite{benson2016higher}. We expect these algorithms to outperform other
-commonly used algorithms such as Louvain optimization or the Clauset-Newman-Moore
-algorithm.
+commonly used community detection algorithms such as Louvain optimization or the
+Clauset-Newman-Moore algorithm.
 
 \section{Related works}
 \label{sec:related}
@@ -101,19 +101,20 @@ algorithm.
 % jeong2000large - scale free
 % holme2003subnetwork
 
-In~\cite{jeong2000large}, Jeong et. al offer a general overview of the
-organization and structure of metabolic networks. The authors compare the
-metabolic networks of 43 different organisms and find that metabolic networks
-belong to the class of scale-free networks. Moreover, they find that the network
-diameter is consistent across all of the analyzed networks, irrespective of the
-number of substrates found in the given species.
+Jeong et. al.~\cite{jeong2000large} offer a general overview of the organization
+and structure of metabolic networks. The authors compare the metabolic networks
+of 43 different organisms and find that metabolic networks belong to the class
+of scale-free networks. Moreover, they find that the network diameter is
+consistent across all of the analyzed networks, irrespective of the number of
+substrates found in the given species.
 
-In~\cite{holme2003subnetwork}, Holme et. al present a method to decompose
-metabolic networks into subnetworks based on the global network structure. They
-use a modified Girvan-Newman algorithm~\cite{girvan2002community} to construct a
+Holme et. al.~\cite{holme2003subnetwork} present a method to decompose metabolic
+networks into subnetworks based on the global network structure. They use a
+modified Girvan-Newman algorithm~\cite{girvan2002community} to construct a
 hierarchical clustering tree. They argue that instead of looking at a particular
 partitioning of a network, we should look at the hierarchical clustering tree as
-whole, since well-defined subnetworks appear at different heights.
+whole, since well-defined subnetworks appear at different levels of the
+hierarchy.
 
 A framework for clustering networks based on higher order structures
 (e.g. motifs) is introduced in~\cite{benson2016higher}. The authors of the
@@ -160,26 +161,45 @@ nodes, while the other nodes are isolated. These probably represent sources and
 sinks of the meta-bolism.
 
 The network appears to have a scale-free structure. Its in-degree, out-degree
-and degree distributions are plotted in figure~\ref{fig:dist}. Some commonly
-used network properties are presented in table~\ref{tab:metrics}.
+and degree distributions are plotted in Figure~\ref{fig:dist}. Some commonly
+used network properties are presented in Table~\ref{tab:metrics}. The clustering
+coefficient is computed as
+
+\begin{equation}
+  \langle C \rangle = \frac{3 \times \mathrm{\# triangles}}{\mathrm{\# connected
+  \ triplets}}\ .
+\end{equation}
+
+The effective diameter $E_{90}$ measures the maximum number of hops needed to
+reach $90\%$ of the network~\cite{leskovec2007graph}.
+
+The graph density is defined as
+
+\begin{equation}
+  \rho = \frac{|E|}{|V|(|V| - 1)}\ ,
+\end{equation}
+
+\noindent
+where $|E|$ is the number of edges and $|V|$ is the number of vertices in the
+directed network.
 
 \begin{table}
   \centering
-  \begin{tabular}{l|l|l|l|l}
-    $\langle C \rangle_d$ & $\langle C \rangle_u$ & $E_{90}$ & $\rho$ & $\langle
-    k \rangle$ \\ 0.012 & 0.069 & 15 & 0.015 & 194.1
+  \begin{tabular}{l|l|l|l}
+    $\langle C \rangle$ & $E_{90}$ & $\rho$ & $\langle k \rangle$ \\ \hline
+    0.012 & 15 & 0.015 & 194.1
   \end{tabular}
-  \caption{The directed and undirected clustering coefficients $\langle
-    C\rangle_d$ and $\langle C\rangle_u$, effective diameter $E_{90}$, the
-    density $\rho$ and the average degree $\langle k \rangle$ of the network.}
+  \caption{The clustering coefficient $\langle C\rangle$, effective diameter
+    $E_{90}$, the density $\rho$ and the average degree $\langle k \rangle$ of
+    the network.}
   \label{tab:metrics}
 \end{table}
 
 First, we count the appearances of all 13 directed three-node motifs in the
 network. The significances~\cite{milo2002network} of each motif are presented in
 the second row of table~\ref{tab:motifs}. The significances were calculated by
-comparing the motif occurrences with 10 instances of Erdős-Rény random graphs of
-the same size and density.
+comparing the motif occurrences with ten instances of Erdős-Rény random graphs
+of the same size and density.
 
 The normalized mutual information scores of the motif based clustering approach
 are listed in the last row of table~\ref{tab:motifs}. We have calculated these

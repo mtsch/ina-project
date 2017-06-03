@@ -64,6 +64,12 @@ Zachary~A. King, Justin Lu, Andreas Dräger, Philip Miller, Stephen Federowicz,
   genome-scale models.
 \newblock {\em Nucleic Acids Research}, 44(D1):D515, 2016.
 
+\bibitem{leskovec2007graph}
+Jure Leskovec, Jon Kleinberg, and Christos Faloutsos.
+\newblock Graph evolution: Densification and shrinking diameters.
+\newblock {\em ACM Transactions on Knowledge Discovery from Data (TKDD)},
+  1(1):2, 2007.
+
 \bibitem{leskovec2016snap}
 Jure Leskovec and Rok Sosi{\v{c}}.
 \newblock Snap: A general-purpose network analysis and graph-mining library.
