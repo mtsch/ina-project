@@ -1,12 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.5)  3 JUN 2017 16:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2016.8.8)  3 JUN 2017 17:33
 entering extended mode
- \write18 enabled.
- file:line:error style messages enabled.
+ restricted \write18 enabled.
  %&-line parsing enabled.
-**report.tex
+**\nonstopmode\input report.tex
 (./report.tex
-LaTeX2e <2015/01/01>
-Babel <3.9l> and hyphenation patterns for 79 languages loaded.
 
 LaTeX Warning: File `leer.eps' already exists on the system.
                Not generating it from this source.
@@ -74,61 +71,61 @@ LaTeX Font Info:    Redeclaring math symbol \Omega on input line 109.
 \figgap=\dimen111
 \bibindent=\dimen112
 \@tempcntc=\count104
-) (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+) (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+(/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+(/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/10/09 v1.0u Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+(/usr/share/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 94.
+Package graphics Info: Driver file: pdftex.def on input line 99.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+(/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+(/usr/share/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+(/usr/share/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count105
 ))
 \Gin@req@height=\dimen113
 \Gin@req@width=\dimen114
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf.sty
-Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
+(/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf.sty
+Package: epstopdf 2016/05/15 v2.6 Conversion with epstopdf on the fly (HO)
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+(/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+(/usr/share/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+(/usr/share/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 ))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+(/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+(/usr/share/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+(/usr/share/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+(/usr/share/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
 Package etexcmds Info: Could not find \expanded.
@@ -136,45 +133,48 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+(/usr/share/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
+(/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
 Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
+(grfext)             \AppendGraphicsExtensions on input line 456.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 )))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/inputenc.sty
+(/usr/share/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks17
 \inpenc@posthook=\toks18
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2014/09/29 v1.1m UTF-8 support for inputenc
+(/usr/share/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1enc.dfu
-File: t1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
+(/usr/share/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
    defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AD (decimal 173)
    defining Unicode char U+00BB (decimal 187)
    defining Unicode char U+00BF (decimal 191)
    defining Unicode char U+00C0 (decimal 192)
@@ -239,50 +239,94 @@ File: t1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00FD (decimal 253)
    defining Unicode char U+00FE (decimal 254)
    defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0100 (decimal 256)
+   defining Unicode char U+0101 (decimal 257)
    defining Unicode char U+0102 (decimal 258)
    defining Unicode char U+0103 (decimal 259)
    defining Unicode char U+0104 (decimal 260)
    defining Unicode char U+0105 (decimal 261)
    defining Unicode char U+0106 (decimal 262)
    defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+0108 (decimal 264)
+   defining Unicode char U+0109 (decimal 265)
+   defining Unicode char U+010A (decimal 266)
+   defining Unicode char U+010B (decimal 267)
    defining Unicode char U+010C (decimal 268)
    defining Unicode char U+010D (decimal 269)
    defining Unicode char U+010E (decimal 270)
    defining Unicode char U+010F (decimal 271)
    defining Unicode char U+0110 (decimal 272)
    defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0112 (decimal 274)
+   defining Unicode char U+0113 (decimal 275)
+   defining Unicode char U+0114 (decimal 276)
+   defining Unicode char U+0115 (decimal 277)
+   defining Unicode char U+0116 (decimal 278)
+   defining Unicode char U+0117 (decimal 279)
    defining Unicode char U+0118 (decimal 280)
    defining Unicode char U+0119 (decimal 281)
    defining Unicode char U+011A (decimal 282)
    defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011C (decimal 284)
+   defining Unicode char U+011D (decimal 285)
    defining Unicode char U+011E (decimal 286)
    defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0120 (decimal 288)
+   defining Unicode char U+0121 (decimal 289)
+   defining Unicode char U+0122 (decimal 290)
+   defining Unicode char U+0123 (decimal 291)
+   defining Unicode char U+0124 (decimal 292)
+   defining Unicode char U+0125 (decimal 293)
+   defining Unicode char U+0128 (decimal 296)
+   defining Unicode char U+0129 (decimal 297)
+   defining Unicode char U+012A (decimal 298)
+   defining Unicode char U+012B (decimal 299)
+   defining Unicode char U+012C (decimal 300)
+   defining Unicode char U+012D (decimal 301)
+   defining Unicode char U+012E (decimal 302)
+   defining Unicode char U+012F (decimal 303)
    defining Unicode char U+0130 (decimal 304)
    defining Unicode char U+0131 (decimal 305)
    defining Unicode char U+0132 (decimal 306)
    defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0134 (decimal 308)
+   defining Unicode char U+0135 (decimal 309)
+   defining Unicode char U+0136 (decimal 310)
+   defining Unicode char U+0137 (decimal 311)
    defining Unicode char U+0139 (decimal 313)
    defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013B (decimal 315)
+   defining Unicode char U+013C (decimal 316)
    defining Unicode char U+013D (decimal 317)
    defining Unicode char U+013E (decimal 318)
    defining Unicode char U+0141 (decimal 321)
    defining Unicode char U+0142 (decimal 322)
    defining Unicode char U+0143 (decimal 323)
    defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0145 (decimal 325)
+   defining Unicode char U+0146 (decimal 326)
    defining Unicode char U+0147 (decimal 327)
    defining Unicode char U+0148 (decimal 328)
    defining Unicode char U+014A (decimal 330)
    defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+014C (decimal 332)
+   defining Unicode char U+014D (decimal 333)
+   defining Unicode char U+014E (decimal 334)
+   defining Unicode char U+014F (decimal 335)
    defining Unicode char U+0150 (decimal 336)
    defining Unicode char U+0151 (decimal 337)
    defining Unicode char U+0152 (decimal 338)
    defining Unicode char U+0153 (decimal 339)
    defining Unicode char U+0154 (decimal 340)
    defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0156 (decimal 342)
+   defining Unicode char U+0157 (decimal 343)
    defining Unicode char U+0158 (decimal 344)
    defining Unicode char U+0159 (decimal 345)
    defining Unicode char U+015A (decimal 346)
    defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015C (decimal 348)
+   defining Unicode char U+015D (decimal 349)
    defining Unicode char U+015E (decimal 350)
    defining Unicode char U+015F (decimal 351)
    defining Unicode char U+0160 (decimal 352)
@@ -291,10 +335,22 @@ File: t1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
    defining Unicode char U+0163 (decimal 355)
    defining Unicode char U+0164 (decimal 356)
    defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+0168 (decimal 360)
+   defining Unicode char U+0169 (decimal 361)
+   defining Unicode char U+016A (decimal 362)
+   defining Unicode char U+016B (decimal 363)
+   defining Unicode char U+016C (decimal 364)
+   defining Unicode char U+016D (decimal 365)
    defining Unicode char U+016E (decimal 366)
    defining Unicode char U+016F (decimal 367)
    defining Unicode char U+0170 (decimal 368)
    defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0172 (decimal 370)
+   defining Unicode char U+0173 (decimal 371)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
    defining Unicode char U+0178 (decimal 376)
    defining Unicode char U+0179 (decimal 377)
    defining Unicode char U+017A (decimal 378)
@@ -302,9 +358,40 @@ File: t1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
    defining Unicode char U+017C (decimal 380)
    defining Unicode char U+017D (decimal 381)
    defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+01CD (decimal 461)
+   defining Unicode char U+01CE (decimal 462)
+   defining Unicode char U+01CF (decimal 463)
+   defining Unicode char U+01D0 (decimal 464)
+   defining Unicode char U+01D1 (decimal 465)
+   defining Unicode char U+01D2 (decimal 466)
+   defining Unicode char U+01D3 (decimal 467)
+   defining Unicode char U+01D4 (decimal 468)
+   defining Unicode char U+01E2 (decimal 482)
+   defining Unicode char U+01E3 (decimal 483)
+   defining Unicode char U+01E6 (decimal 486)
+   defining Unicode char U+01E7 (decimal 487)
+   defining Unicode char U+01E8 (decimal 488)
+   defining Unicode char U+01E9 (decimal 489)
+   defining Unicode char U+01EA (decimal 490)
+   defining Unicode char U+01EB (decimal 491)
+   defining Unicode char U+01F0 (decimal 496)
+   defining Unicode char U+01F4 (decimal 500)
+   defining Unicode char U+01F5 (decimal 501)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+0232 (decimal 562)
+   defining Unicode char U+0233 (decimal 563)
+   defining Unicode char U+1E02 (decimal 7682)
+   defining Unicode char U+1E03 (decimal 7683)
    defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2010 (decimal 8208)
+   defining Unicode char U+2011 (decimal 8209)
+   defining Unicode char U+2012 (decimal 8210)
    defining Unicode char U+2013 (decimal 8211)
    defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2015 (decimal 8213)
    defining Unicode char U+2018 (decimal 8216)
    defining Unicode char U+2019 (decimal 8217)
    defining Unicode char U+201A (decimal 8218)
@@ -316,14 +403,18 @@ File: t1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
    defining Unicode char U+2039 (decimal 8249)
    defining Unicode char U+203A (decimal 8250)
    defining Unicode char U+2423 (decimal 9251)
+   defining Unicode char U+1E20 (decimal 7712)
+   defining Unicode char U+1E21 (decimal 7713)
 )
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ot1enc.dfu
-File: ot1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
+(/usr/share/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AD (decimal 173)
    defining Unicode char U+00B8 (decimal 184)
    defining Unicode char U+00BF (decimal 191)
    defining Unicode char U+00C5 (decimal 197)
@@ -341,6 +432,14 @@ File: ot1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
    defining Unicode char U+0142 (decimal 322)
    defining Unicode char U+0152 (decimal 338)
    defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
    defining Unicode char U+2013 (decimal 8211)
    defining Unicode char U+2014 (decimal 8212)
    defining Unicode char U+2018 (decimal 8216)
@@ -351,8 +450,8 @@ File: ot1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omsenc.dfu
-File: omsenc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
+(/usr/share/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
    defining Unicode char U+00B7 (decimal 183)
@@ -389,7 +488,8 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
 LaTeX Font Info:    ... okay on input line 32.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
 LaTeX Font Info:    ... okay on input line 32.
-(/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+
+(/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count106
 \scratchdimen=\dimen115
@@ -419,277 +519,277 @@ l-
  []
 
 
-Overfull \hbox (2.49648pt too wide) in paragraph at lines 90--97
+Overfull \hbox (2.49648pt too wide) in paragraph at lines 90--96
 []\OT1/cmr/m/n/10 In this ar-ti-cle, we an-a-lyze the sub-sys-tems in a metabol
 ic
  []
 
 
-Overfull \hbox (6.9827pt too wide) in paragraph at lines 90--97
-\OT1/cmr/m/n/10 their struc-tures, fo-cus-ing on the Girvan-Newman method [5]
+Overfull \hbox (4.07994pt too wide) in paragraph at lines 90--96
+\OT1/cmr/m/n/10 other com-monly used com-mu-nity de-tec-tion al-go-rithms such
  []
 
 
-Overfull \hbox (12.88544pt too wide) in paragraph at lines 111--118
+Overfull \hbox (12.88544pt too wide) in paragraph at lines 110--117
 []\OT1/cmr/m/n/10 Holme et. al. [8] present a method to de-com-pose metabolic
  []
 
 
-Overfull \hbox (10.53827pt too wide) in paragraph at lines 111--118
+Overfull \hbox (10.53827pt too wide) in paragraph at lines 110--117
 \OT1/cmr/m/n/10 struc-ture. They use a mod-i-fied Girvan-Newman al-go-rithm [5]
 
  []
 
-[1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
-Overfull \hbox (0.94104pt too wide) in paragraph at lines 159--163
-[]\OT1/cmr/m/n/10 The motif-based clus-ter-ing method, mo-tif count-ing and
- []
+
+LaTeX Warning: Citation `rosvall2008maps' on page 2 undefined on input line 167
+.
 
 
-Overfull \hbox (0.32977pt too wide) in paragraph at lines 208--213
+Overfull \hbox (0.32977pt too wide) in paragraph at lines 216--221
 []\OT1/cmr/m/n/10 First, we count the ap-pear-ances of all 13 di-rected three-
  []
 
-<../plots/degreesmall.pdf, id=13, 505.89pt x 216.81pt>
-File: ../plots/degreesmall.pdf Graphic file (type pdf)
+<../plots/degreesmall2.pdf, id=13, 361.35pt x 361.35pt>
+File: ../plots/degreesmall2.pdf Graphic file (type pdf)
 
-<use ../plots/degreesmall.pdf>
-Package pdftex.def Info: ../plots/degreesmall.pdf used on input line 234.
-(pdftex.def)             Requested size: 230.39844pt x 98.74463pt.
+<use ../plots/degreesmall2.pdf>
+Package pdftex.def Info: ../plots/degreesmall2.pdf used on input line 246.
+(pdftex.def)             Requested size: 230.39844pt x 230.39755pt.
 Package epstopdf Info: Source file: <M1-plain.eps>
-(epstopdf)                    date: 2017-05-22 21:04:40
+(epstopdf)                    date: 2017-05-22 16:06:24
 (epstopdf)                    size: 5413 bytes
 (epstopdf)             Output file: <M1-plain-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-22 21:04:40
+(epstopdf)                    date: 2017-05-22 16:08:00
 (epstopdf)                    size: 2780 bytes
-(epstopdf)             Command: <epstopdf --outfile=M1-plain-eps-converted-to.p
-df M1-plain.eps>
-(epstopdf)             \includegraphics on input line 245.
+(epstopdf)             Command: <repstopdf --outfile=M1-plain-eps-converted-to.
+pdf M1-plain.eps>
+(epstopdf)             \includegraphics on input line 257.
 Package epstopdf Info: Output file is already uptodate.
 
 <M1-plain-eps-converted-to.pdf, id=14, 49.18375pt x 146.5475pt>
 File: M1-plain-eps-converted-to.pdf Graphic file (type pdf)
 
 <use M1-plain-eps-converted-to.pdf>
-Package pdftex.def Info: M1-plain-eps-converted-to.pdf used on input line 245.
+Package pdftex.def Info: M1-plain-eps-converted-to.pdf used on input line 257.
 (pdftex.def)             Requested size: 6.7656pt x 20.15918pt.
 Package epstopdf Info: Source file: <M2-plain.eps>
-(epstopdf)                    date: 2017-05-22 21:04:40
+(epstopdf)                    date: 2017-05-22 16:06:24
 (epstopdf)                    size: 5832 bytes
 (epstopdf)             Output file: <M2-plain-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-22 21:04:40
+(epstopdf)                    date: 2017-05-22 16:08:01
 (epstopdf)                    size: 2871 bytes
-(epstopdf)             Command: <epstopdf --outfile=M2-plain-eps-converted-to.p
-df M2-plain.eps>
-(epstopdf)             \includegraphics on input line 246.
+(epstopdf)             Command: <repstopdf --outfile=M2-plain-eps-converted-to.
+pdf M2-plain.eps>
+(epstopdf)             \includegraphics on input line 258.
 Package epstopdf Info: Output file is already uptodate.
 
 <M2-plain-eps-converted-to.pdf, id=15, 78.2925pt x 146.5475pt>
 File: M2-plain-eps-converted-to.pdf Graphic file (type pdf)
 
 <use M2-plain-eps-converted-to.pdf>
-Package pdftex.def Info: M2-plain-eps-converted-to.pdf used on input line 246.
+Package pdftex.def Info: M2-plain-eps-converted-to.pdf used on input line 258.
 (pdftex.def)             Requested size: 10.76973pt x 20.15918pt.
 Package epstopdf Info: Source file: <M3-plain.eps>
-(epstopdf)                    date: 2017-05-22 21:04:40
+(epstopdf)                    date: 2017-05-22 16:06:24
 (epstopdf)                    size: 6215 bytes
 (epstopdf)             Output file: <M3-plain-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-22 21:04:40
+(epstopdf)                    date: 2017-05-22 16:08:01
 (epstopdf)                    size: 2945 bytes
-(epstopdf)             Command: <epstopdf --outfile=M3-plain-eps-converted-to.p
-df M3-plain.eps>
-(epstopdf)             \includegraphics on input line 247.
+(epstopdf)             Command: <repstopdf --outfile=M3-plain-eps-converted-to.
+pdf M3-plain.eps>
+(epstopdf)             \includegraphics on input line 259.
 Package epstopdf Info: Output file is already uptodate.
 
 <M3-plain-eps-converted-to.pdf, id=16, 78.2925pt x 146.5475pt>
 File: M3-plain-eps-converted-to.pdf Graphic file (type pdf)
 
 <use M3-plain-eps-converted-to.pdf>
-Package pdftex.def Info: M3-plain-eps-converted-to.pdf used on input line 247.
+Package pdftex.def Info: M3-plain-eps-converted-to.pdf used on input line 259.
 (pdftex.def)             Requested size: 10.76973pt x 20.15918pt.
 Package epstopdf Info: Source file: <M4-plain.eps>
-(epstopdf)                    date: 2017-05-22 21:04:40
+(epstopdf)                    date: 2017-05-22 16:06:24
 (epstopdf)                    size: 6593 bytes
 (epstopdf)             Output file: <M4-plain-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-22 21:04:40
+(epstopdf)                    date: 2017-05-22 16:08:01
 (epstopdf)                    size: 3002 bytes
-(epstopdf)             Command: <epstopdf --outfile=M4-plain-eps-converted-to.p
-df M4-plain.eps>
-(epstopdf)             \includegraphics on input line 248.
+(epstopdf)             Command: <repstopdf --outfile=M4-plain-eps-converted-to.
+pdf M4-plain.eps>
+(epstopdf)             \includegraphics on input line 260.
 Package epstopdf Info: Output file is already uptodate.
 
 <M4-plain-eps-converted-to.pdf, id=17, 54.2025pt x 146.5475pt>
 File: M4-plain-eps-converted-to.pdf Graphic file (type pdf)
 
 <use M4-plain-eps-converted-to.pdf>
-Package pdftex.def Info: M4-plain-eps-converted-to.pdf used on input line 248.
+Package pdftex.def Info: M4-plain-eps-converted-to.pdf used on input line 260.
 (pdftex.def)             Requested size: 7.45596pt x 20.15918pt.
 Package epstopdf Info: Source file: <M5-plain.eps>
-(epstopdf)                    date: 2017-05-22 21:04:40
+(epstopdf)                    date: 2017-05-22 16:06:24
 (epstopdf)                    size: 5406 bytes
 (epstopdf)             Output file: <M5-plain-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-22 21:04:40
+(epstopdf)                    date: 2017-05-22 16:08:02
 (epstopdf)                    size: 2782 bytes
-(epstopdf)             Command: <epstopdf --outfile=M5-plain-eps-converted-to.p
-df M5-plain.eps>
-(epstopdf)             \includegraphics on input line 249.
+(epstopdf)             Command: <repstopdf --outfile=M5-plain-eps-converted-to.
+pdf M5-plain.eps>
+(epstopdf)             \includegraphics on input line 261.
 Package epstopdf Info: Output file is already uptodate.
 
 <M5-plain-eps-converted-to.pdf, id=18, 49.18375pt x 146.5475pt>
 File: M5-plain-eps-converted-to.pdf Graphic file (type pdf)
 
 <use M5-plain-eps-converted-to.pdf>
-Package pdftex.def Info: M5-plain-eps-converted-to.pdf used on input line 249.
+Package pdftex.def Info: M5-plain-eps-converted-to.pdf used on input line 261.
 (pdftex.def)             Requested size: 6.7656pt x 20.15918pt.
 Package epstopdf Info: Source file: <M6-plain.eps>
-(epstopdf)                    date: 2017-05-22 21:04:40
+(epstopdf)                    date: 2017-05-22 16:06:24
 (epstopdf)                    size: 5799 bytes
 (epstopdf)             Output file: <M6-plain-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-22 21:04:40
+(epstopdf)                    date: 2017-05-22 16:08:02
 (epstopdf)                    size: 2875 bytes
-(epstopdf)             Command: <epstopdf --outfile=M6-plain-eps-converted-to.p
-df M6-plain.eps>
-(epstopdf)             \includegraphics on input line 250.
+(epstopdf)             Command: <repstopdf --outfile=M6-plain-eps-converted-to.
+pdf M6-plain.eps>
+(epstopdf)             \includegraphics on input line 262.
 Package epstopdf Info: Output file is already uptodate.
 
 <M6-plain-eps-converted-to.pdf, id=19, 49.18375pt x 146.5475pt>
 File: M6-plain-eps-converted-to.pdf Graphic file (type pdf)
 
 <use M6-plain-eps-converted-to.pdf>
-Package pdftex.def Info: M6-plain-eps-converted-to.pdf used on input line 250.
+Package pdftex.def Info: M6-plain-eps-converted-to.pdf used on input line 262.
 (pdftex.def)             Requested size: 6.7656pt x 20.15918pt.
 Package epstopdf Info: Source file: <M7-plain.eps>
-(epstopdf)                    date: 2017-05-22 21:04:40
+(epstopdf)                    date: 2017-05-22 16:06:24
 (epstopdf)                    size: 5806 bytes
 (epstopdf)             Output file: <M7-plain-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-22 21:04:40
+(epstopdf)                    date: 2017-05-22 16:08:03
 (epstopdf)                    size: 2870 bytes
-(epstopdf)             Command: <epstopdf --outfile=M7-plain-eps-converted-to.p
-df M7-plain.eps>
-(epstopdf)             \includegraphics on input line 251.
+(epstopdf)             Command: <repstopdf --outfile=M7-plain-eps-converted-to.
+pdf M7-plain.eps>
+(epstopdf)             \includegraphics on input line 263.
 Package epstopdf Info: Output file is already uptodate.
 
 <M7-plain-eps-converted-to.pdf, id=20, 49.18375pt x 146.5475pt>
 File: M7-plain-eps-converted-to.pdf Graphic file (type pdf)
 
 <use M7-plain-eps-converted-to.pdf>
-Package pdftex.def Info: M7-plain-eps-converted-to.pdf used on input line 251.
+Package pdftex.def Info: M7-plain-eps-converted-to.pdf used on input line 263.
 (pdftex.def)             Requested size: 6.7656pt x 20.15918pt.
 Package epstopdf Info: Source file: <M8-plain.eps>
-(epstopdf)                    date: 2017-05-22 21:04:40
+(epstopdf)                    date: 2017-05-22 16:06:24
 (epstopdf)                    size: 5052 bytes
 (epstopdf)             Output file: <M8-plain-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-22 21:04:40
+(epstopdf)                    date: 2017-05-22 16:08:03
 (epstopdf)                    size: 2710 bytes
-(epstopdf)             Command: <epstopdf --outfile=M8-plain-eps-converted-to.p
-df M8-plain.eps>
-(epstopdf)             \includegraphics on input line 252.
+(epstopdf)             Command: <repstopdf --outfile=M8-plain-eps-converted-to.
+pdf M8-plain.eps>
+(epstopdf)             \includegraphics on input line 264.
 Package epstopdf Info: Output file is already uptodate.
 
 <M8-plain-eps-converted-to.pdf, id=21, 70.2625pt x 88.33pt>
 File: M8-plain-eps-converted-to.pdf Graphic file (type pdf)
 
 <use M8-plain-eps-converted-to.pdf>
-Package pdftex.def Info: M8-plain-eps-converted-to.pdf used on input line 252.
+Package pdftex.def Info: M8-plain-eps-converted-to.pdf used on input line 264.
 (pdftex.def)             Requested size: 16.03566pt x 20.15918pt.
 Package epstopdf Info: Source file: <M9-plain.eps>
-(epstopdf)                    date: 2017-05-22 21:04:40
+(epstopdf)                    date: 2017-05-22 16:06:24
 (epstopdf)                    size: 4988 bytes
 (epstopdf)             Output file: <M9-plain-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-22 21:04:40
+(epstopdf)                    date: 2017-05-22 16:08:04
 (epstopdf)                    size: 2674 bytes
-(epstopdf)             Command: <epstopdf --outfile=M9-plain-eps-converted-to.p
-df M9-plain.eps>
-(epstopdf)             \includegraphics on input line 253.
+(epstopdf)             Command: <repstopdf --outfile=M9-plain-eps-converted-to.
+pdf M9-plain.eps>
+(epstopdf)             \includegraphics on input line 265.
 Package epstopdf Info: Output file is already uptodate.
 
 <M9-plain-eps-converted-to.pdf, id=22, 30.1125pt x 146.5475pt>
 File: M9-plain-eps-converted-to.pdf Graphic file (type pdf)
 
 <use M9-plain-eps-converted-to.pdf>
-Package pdftex.def Info: M9-plain-eps-converted-to.pdf used on input line 253.
+Package pdftex.def Info: M9-plain-eps-converted-to.pdf used on input line 265.
 (pdftex.def)             Requested size: 4.1422pt x 20.15918pt.
 Package epstopdf Info: Source file: <M10-plain.eps>
-(epstopdf)                    date: 2017-05-22 21:04:40
+(epstopdf)                    date: 2017-05-22 16:06:24
 (epstopdf)                    size: 5052 bytes
 (epstopdf)             Output file: <M10-plain-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-22 21:04:40
+(epstopdf)                    date: 2017-05-22 16:08:04
 (epstopdf)                    size: 2714 bytes
-(epstopdf)             Command: <epstopdf --outfile=M10-plain-eps-converted-to.
-pdf M10-plain.eps>
-(epstopdf)             \includegraphics on input line 254.
+(epstopdf)             Command: <repstopdf --outfile=M10-plain-eps-converted-to
+.pdf M10-plain.eps>
+(epstopdf)             \includegraphics on input line 266.
 Package epstopdf Info: Output file is already uptodate.
 
 <M10-plain-eps-converted-to.pdf, id=23, 70.2625pt x 88.33pt>
 File: M10-plain-eps-converted-to.pdf Graphic file (type pdf)
 
 <use M10-plain-eps-converted-to.pdf>
-Package pdftex.def Info: M10-plain-eps-converted-to.pdf used on input line 254.
+Package pdftex.def Info: M10-plain-eps-converted-to.pdf used on input line 266.
 
 (pdftex.def)             Requested size: 16.03566pt x 20.15918pt.
 Package epstopdf Info: Source file: <M11-plain.eps>
-(epstopdf)                    date: 2017-05-22 21:04:40
+(epstopdf)                    date: 2017-05-22 16:06:24
 (epstopdf)                    size: 5415 bytes
 (epstopdf)             Output file: <M11-plain-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-22 21:04:40
+(epstopdf)                    date: 2017-05-22 16:08:05
 (epstopdf)                    size: 2788 bytes
-(epstopdf)             Command: <epstopdf --outfile=M11-plain-eps-converted-to.
-pdf M11-plain.eps>
-(epstopdf)             \includegraphics on input line 255.
+(epstopdf)             Command: <repstopdf --outfile=M11-plain-eps-converted-to
+.pdf M11-plain.eps>
+(epstopdf)             \includegraphics on input line 267.
 Package epstopdf Info: Output file is already uptodate.
 
 <M11-plain-eps-converted-to.pdf, id=24, 70.2625pt x 88.33pt>
 File: M11-plain-eps-converted-to.pdf Graphic file (type pdf)
 
 <use M11-plain-eps-converted-to.pdf>
-Package pdftex.def Info: M11-plain-eps-converted-to.pdf used on input line 255.
+Package pdftex.def Info: M11-plain-eps-converted-to.pdf used on input line 267.
 
 (pdftex.def)             Requested size: 16.03566pt x 20.15918pt.
 Package epstopdf Info: Source file: <M12-plain.eps>
-(epstopdf)                    date: 2017-05-22 21:04:40
+(epstopdf)                    date: 2017-05-22 16:06:24
 (epstopdf)                    size: 5385 bytes
 (epstopdf)             Output file: <M12-plain-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-22 21:04:40
+(epstopdf)                    date: 2017-05-22 16:08:05
 (epstopdf)                    size: 2773 bytes
-(epstopdf)             Command: <epstopdf --outfile=M12-plain-eps-converted-to.
-pdf M12-plain.eps>
-(epstopdf)             \includegraphics on input line 256.
+(epstopdf)             Command: <repstopdf --outfile=M12-plain-eps-converted-to
+.pdf M12-plain.eps>
+(epstopdf)             \includegraphics on input line 268.
 Package epstopdf Info: Output file is already uptodate.
 
 <M12-plain-eps-converted-to.pdf, id=25, 30.1125pt x 146.5475pt>
 File: M12-plain-eps-converted-to.pdf Graphic file (type pdf)
 
 <use M12-plain-eps-converted-to.pdf>
-Package pdftex.def Info: M12-plain-eps-converted-to.pdf used on input line 256.
+Package pdftex.def Info: M12-plain-eps-converted-to.pdf used on input line 268.
 
 (pdftex.def)             Requested size: 4.1422pt x 20.15918pt.
 Package epstopdf Info: Source file: <M13-plain.eps>
-(epstopdf)                    date: 2017-05-22 21:04:40
+(epstopdf)                    date: 2017-05-22 16:06:25
 (epstopdf)                    size: 5816 bytes
 (epstopdf)             Output file: <M13-plain-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-22 21:04:40
+(epstopdf)                    date: 2017-05-22 16:08:06
 (epstopdf)                    size: 2858 bytes
-(epstopdf)             Command: <epstopdf --outfile=M13-plain-eps-converted-to.
-pdf M13-plain.eps>
-(epstopdf)             \includegraphics on input line 257.
+(epstopdf)             Command: <repstopdf --outfile=M13-plain-eps-converted-to
+.pdf M13-plain.eps>
+(epstopdf)             \includegraphics on input line 269.
 Package epstopdf Info: Output file is already uptodate.
 
 <M13-plain-eps-converted-to.pdf, id=26, 70.2625pt x 88.33pt>
 File: M13-plain-eps-converted-to.pdf Graphic file (type pdf)
 
 <use M13-plain-eps-converted-to.pdf>
-Package pdftex.def Info: M13-plain-eps-converted-to.pdf used on input line 257.
+Package pdftex.def Info: M13-plain-eps-converted-to.pdf used on input line 269.
 
 (pdftex.def)             Requested size: 16.03566pt x 20.15918pt.
 
-Overfull \hbox (5.10918pt too wide) in paragraph at lines 272--277
+Overfull \hbox (5.10918pt too wide) in paragraph at lines 284--289
  [][] 
  []
 
-(./report.bbl [2 <../plots/degreesmall.pdf>]
+(./report.bbl [2]
 Underfull \hbox (badness 1320) in paragraph at lines 61--66
 \OT1/cmr/m/n/9 Bern-hard O. Pals-son, and Nathan E. Lewis.  Bigg
  []
@@ -699,34 +799,31 @@ plain-eps-converted-to.pdf> <./M4-plain-eps-converted-to.pdf> <./M5-plain-eps-c
 onverted-to.pdf> <./M6-plain-eps-converted-to.pdf> <./M7-plain-eps-converted-to
 .pdf> <./M8-plain-eps-converted-to.pdf> <./M9-plain-eps-converted-to.pdf> <./M1
 0-plain-eps-converted-to.pdf> <./M11-plain-eps-converted-to.pdf> <./M12-plain-e
-ps-converted-to.pdf> <./M13-plain-eps-converted-to.pdf>] (./report.aux) ) 
+ps-converted-to.pdf> <./M13-plain-eps-converted-to.pdf> <../plots/degreesmall2.
+pdf>] (./report.aux) ) 
 Here is how much of TeX's memory you used:
- 2086 strings out of 493089
- 28624 string characters out of 6134843
- 99805 words of memory out of 5000000
- 5527 multiletter control sequences out of 15000+600000
- 9335 words of font info for 33 fonts, out of 8000000 for 9000
+ 2187 strings out of 493049
+ 28609 string characters out of 6140511
+ 101921 words of memory out of 5000000
+ 5669 multiletter control sequences out of 15000+600000
+ 8989 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,11n,28p,327b,317s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/
-local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/l
-ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/loc
-al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/loca
-l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/
-texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/te
-xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texli
-ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/
-2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/201
-5/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/20
-15/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/201
-5/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2015/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2015/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on report.pdf (3 pages, 210330 bytes).
+ 42i,11n,28p,346b,317s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmb
+x10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/s
+hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></us
+r/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.p
+fb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on report.pdf (3 pages, 195786 bytes).
 PDF statistics:
- 135 PDF objects out of 1000 (max. 8388607)
- 82 compressed objects within 1 object stream
+ 131 PDF objects out of 1000 (max. 8388607)
+ 79 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  71 words of extra memory for PDF output out of 10000 (max. 10000000)
 
