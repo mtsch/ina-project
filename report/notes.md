@@ -17,7 +17,7 @@ you start talking about different algorithms).
 #DONE
 "...subnetworks appear at different levels of the hierarchy."
 
-#TODO
+#DONE
 In Section 3, you should at least briefly introduce each of the methods used (do
 not go too deep). Now they are only listed.
 
@@ -30,10 +30,10 @@ each measure.
 Use \hline in Table 1, "...in Figure 1.", "...in Table 1.", "...with ten
 instances...".
 
-#TODO
+#DONE?
 Redo Figure 1 as I have mentioned previously. Now it is really hard to see
 anything here.
 
-#TODO
+#TODO - obrazložitev zakaj Z in ne p
 Would it be better to add also the p-values in Table 2? Maybe you can replace
 the Z-scores with p-values.
