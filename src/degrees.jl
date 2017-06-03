@@ -37,4 +37,4 @@ function gamma(f, g; delta = 1)
 end
 
 pyplot(size=(500,500))
-savefig(degreeplot(g, α=0.5), "../plots/degreesmall2.pdf")
+savefig(degreeplot(g, α=0.7), "../plots/degreesmall2.pdf")
