@@ -48,9 +48,9 @@ grestore
   science point of view. We attempt to find ways of detecting subsystems in a
   metabolic network using community detection algorithms.  We use the Louvain
   modularity optimization algorithm and the Clauset-Newman-Moore algorithm as a
-  baseline against which we compare the effectiveness of other algorithms. As a
-  comparison, we use the Girvan-Newman algorithm and a motif-based community
-  detection approach. We present the results on a metabolic network of the
+  baseline against which we compare the effectiveness of a motif-based community
+  detection approach. We also attempt to explain the roles different motifs play
+  in a metabolic network. We present the results on a metabolic network of the
   Chinese hamster ovary cell, a mammalian cell that is commonly used in
   biomedical research and in biotechnology.}
 
@@ -88,11 +88,12 @@ it. Other commonly used representations are simplified representations, where
 one of the types of vertices is omitted~\cite{newman2010networks}.
 
 In this article, we analyze the subsystems in a metabolic network of the Chinese
-hamster ovary cell. We explore different methods of detecting the subsystems and
-compare their structures, focusing on an approach based on network
-motifs~\cite{benson2016higher}. We expect this algorithm to outperform other
-commonly used community detection algorithms such as Louvain optimization or the
-Clauset-Newman-Moore algorithm.
+hamster ovary cell. We explore different methods of detecting the subsystems,
+focusing on an approach based on network motifs~\cite{benson2016higher}. We
+expect this algorithm to outperform other commonly used community detection
+algorithms such as Louvain optimization or the Clauset-Newman-Moore
+algorithm. We also analyse the frequencies of different motifs in the network
+and attempt to offer an interpretation of the results.
 
 \section{Related works}
 \label{sec:related}
@@ -119,8 +120,8 @@ A framework for clustering networks based on higher order structures
 (e.g. motifs) is introduced in~\cite{benson2016higher}. The authors of the
 article present an algorithm that performs community detection by using three
 node motifs. It works by cutting the network into communities in a way that
-minimizes the ratio of the number of motifs cut to the number of nodes in
-instances of the motif.
+minimizes the ratio of the number of motifs of a particular type cut to the
+number of nodes in instances of the motif.
 
 \section{Methods}
 \label{sec:methods}
@@ -149,8 +150,7 @@ The Louvain modularity optimization algorithm is a method of community detection
 which optimizes the modularity of a
 network. Modularity~\cite{girvan2002community} is a value which measures the
 density of edges within communities to edges outside communities. Optimizing
-this value theoretically gives us the best possible partitioning of a given
-network.
+this value should give us a good partitioning of a given network.
 
 Clauset-Newman-Moore algorithm also optimizes the modularity measure. Starting
 with each vertex as a single community it repeatedly joins together two
@@ -163,10 +163,10 @@ counting and the Clauset-Newman-Moore algorithm were taken from the SNAP
 library~\cite{leskovec2016snap} and the Louvain modularity optimization
 algorithm was taken from the NetworkX Python library~\cite{networkx}.
 
-We also attempted to compare the selected algorithms to
+We present those algorithms because they scale well to large networks.  Using
 Infomap~\cite{rosvall2008maps} and the Girvan-Newman
-algorithm~\cite{girvan2002community}, but these algorithms do not finish
-computing even after several days of running.
+algorithm~\cite{girvan2002community} proves to be unfeasible, since with this
+network, those algorithms do not terminate even after several days of running.
 
 \section{Results}
 \label{sec:results}
@@ -214,17 +214,29 @@ directed network.
 \end{table}
 
 First, we count the appearances of all 13 directed three-node motifs in the
-network. The significances~\cite{milo2002network} of each motif are presented in
-the second row of table~\ref{tab:motifs}. The significances were calculated by
-comparing the motif occurrences with ten instances of Erdős-Rény random graphs
-of the same size and density.
+network. The significances of the motifs were calculated according to the
+following formula~\cite{milo2002network}:
+
+\begin{equation}
+  Z_i = \frac{n_i - \mu_i}{\sigma_i}\ ,
+\end{equation}
+
+\noindent
+where $n_i$ is the count of the $i$-th motif in the CHO metabolic network
+and $\mu_{i}$ and $\sigma_{i}$ are the mean and standard deviation of the
+counts for ten instances of Erdős-Rény random networks.
+
+These scores are presented in the second row of Table~\ref{tab:motifs}. Another
+option of evaluating the significances of the motifs would be to present the
+$p$-values, but since the numbers of occurances of motifs in the CHO network are
+so dissimilar to the random graph, all those values would be effectively zero.
 
 The normalized mutual information scores of the motif based clustering approach
-are listed in the last row of table~\ref{tab:motifs}. We have calculated these
+are listed in the last row of Table~\ref{tab:motifs}. We have calculated these
 scores by comparing the algorithm's results and the actual subsystems listed in
 the network annotation. The results are not the best, but still much better than
 the Louvain and the Clauset-Newman-Moore method, listed in
-table~\ref{tab:others}. We partly attribute the quality of the results to the
+Table~\ref{tab:others}. We partly attribute the quality of the results to the
 fact that most biological networks tend to be noisy.
 
 The results show that the motif M4 is the most overrepresented motif in the
@@ -235,12 +247,13 @@ it appeared somewhere from zero to five times, while the metabolic network
 contains over a million and a half. This motif might be important for the
 robustness of the metabolism. If there is a shortage of one of the metabolytes,
 the triangular structure assures that it is quickly replaced by the neighboring
-reactions.
+reactions, effectively preventing such shortages from happening.
 
-Another thing we see from the results is that triangular motifs - motifs in
-which all three nodes are connected in some way - tend work better with
-clustering than wedge shaped motifs. This is also probably a consequence of
-tight coupling between the reactions that form a subsystem.
+Another thing we see from the results is that triangular motifs, motifs in
+which all three nodes are connected in some way, with the exception of M5, tend
+work better with clustering than wedge shaped motifs. This is also probably a
+consequence of tight coupling between the reactions that form a subsystem. The
+wedge shaped motifs probably mostly represent bridges between subsystems.
 
 \begin{figure}
   \includegraphics[width=0.45\textwidth]{../plots/degreesmall2}
@@ -291,6 +304,22 @@ tight coupling between the reactions that form a subsystem.
 \end{table}
 
 \section{Conclusion}
+
+Our analysis shows that three-node motifs play an important role in the
+structure of metabolic networks. The analyzed network contains a very large
+amount of fully-connected triplets of reactions. The number of such motifs found
+in this network is thousands and in one case even over a million times larger
+than what one would find in a random graph.
+
+In terms of subsystem detection, the motif-based community detection algorithm
+outperforms traditionally used algorithms, while remaining computationally
+efficient. It works best when clustering with densely connected motifs, which
+again shows that such motifs play an important role in the structure of a
+metabolism.
+
+Further work could include checking how this community detection algorithm
+performs with larger motifs and exploring the roles those larger motifs play in
+a metabolic network.
 
 \section{Authors contributions}
 All the authors were involved in the preparation of the manuscript.
