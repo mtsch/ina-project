@@ -50,7 +50,7 @@ Faculty of Computer and Information Science \\
   \centering
   \begin{tabular}{l|l}
     Algorithm & NMI \\ \hline
-    Louvain Modularity & 0.1 \\
+    Louvain Modularity & 0.10 \\
     Clauset-Newman-Moore & 0.27 \\
     Infomap & N/A \\
     Girvan-Newman & N/A
@@ -65,7 +65,7 @@ Faculty of Computer and Information Science \\
 
 \begin{frame}{Motif based community detection and motif significances}
   \centering
-  \begin{tabular}{l|lllllllllllll}
+  \begin{tabular}{l|lllllll}
     \hline\noalign{\smallskip}
     &
     \includegraphics[height=0.10\textheight]{M1-plain} &
@@ -74,19 +74,21 @@ Faculty of Computer and Information Science \\
     \includegraphics[height=0.10\textheight]{M4-plain} &
     \includegraphics[height=0.10\textheight]{M5-plain} &
     \includegraphics[height=0.10\textheight]{M6-plain} &
-    \includegraphics[height=0.10\textheight]{M7-plain} &
+    \includegraphics[height=0.10\textheight]{M7-plain} \\ \hline
+    motif & M1 & M2 & M3 & M4 & M5 & M6 & M7
+    \\ \hline
+    $Z$ & -379.0 & 496.4 & 6,523 & 1,171,385 & 1,055 & 3,566 & 4,604 \\
+    NMI & 0.44 & 0.40 & 0.48 & 0.64 & 0.23 & 0.43 & 0.46 \\ \hline \hline
+    &
     \includegraphics[height=0.10\textheight]{M8-plain} &
     \includegraphics[height=0.10\textheight]{M9-plain} &
     \includegraphics[height=0.10\textheight]{M10-plain} &
     \includegraphics[height=0.10\textheight]{M11-plain} &
     \includegraphics[height=0.10\textheight]{M12-plain} &
-    \includegraphics[height=0.10\textheight]{M13-plain} \\
-    motif & M1 & M2 & M3 & M4 & M5 & M6 & M7 & M8 & M9 & M10 & M11 & M12 & M13
-    \\ \hline
-    $Z$ & -379.0 & 496.4 & 6,523 & 1,171,385 & 1,055 & 3,566 & 4,604 & 1,411 &
-    -867.2 & 2,599 & 1,293 & 1,387 & 40,286 \\
-    NMI & 0.44 & 0.40 & 0.48 & 0.64 & 0.23 & 0.43 & 0.46 & 0.11 & 0.09 & 0.09 &
-    0.20 & 0.23 & 0.42
+    \includegraphics[height=0.10\textheight]{M13-plain} & \\ \hline
+    motif & M8 & M9 & M10 & M11 & M12 & M13 & \\ \hline
+    $Z$ & 1,411 & -867.2 & 2,599 & 1,293 & 1,387 & 40,286 & \\
+    NMI & 0.11 & 0.09 & 0.09 & 0.20 & 0.23 & 0.42 & \\
   \end{tabular}
 
   \begin{equation*}
